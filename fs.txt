@@ -1,0 +1,33 @@
+markets: stock, bonds, money, forex, derivatives
+instruments: EQUITY, DEBT, DERIVATIVES, MUTUAL FUNDS, HYBRIDS
+dividends: cumulative, non-cumulative, participating, non-participating
+quotes and orders
+
+
+futures, forwards
+
+futures:
+dluga pozycja - kupno
+krotka pozycja - sprzedaz
+
+forwards:
+kontrakt terminowy poza gielda (rynek nieregulowany) gdzie jedna ze stron jest bank lub izba inwestycyjna
+
+opcje:
+mozliwosc kupna instrumentu bazowego
+mozliwosc sprzedazy instrumentu bazowego
+dluga pozycja - posiadacz opcji
+krotka pozycja - wystawiacz opcji
+
+wystawiacz opcji przyjmuje zobowiazanie
+suma zalezna od wartosci instrumentu podstawowego a cena wykonania
+
+opcja kupna jest wykonywana gdy wartosc instrumentu podstawowego jest wyzsza niz cena wykonania
+opcja sprzedazy jest wykonywana gdy cena wykonania jest wyzsza niz wartosc instrumentu podstawowego
+
+zakup opcji kupna zabezpiecza przed wzrostem instrumentu podstawowego
+zakup opcji sprzedazy zabezpiecza przed spadkiem instrumentu podstawowego
+
+spekulacja dot opcji
+zakup opcji kupna w oczekiwaniu wzrostu ceny instrumentu podstawowego
+zakup opcji sprzedazy w oczekiwaniu spadku ceny instrumentu podstawowego
