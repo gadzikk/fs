@@ -1,14 +1,24 @@
 markets: stock, bonds, money, forex, derivatives
-instruments: EQUITY, DEBT, DERIVATIVES, MUTUAL FUNDS, HYBRIDS
+instruments: 
+EQUITY
+https://pl.wikipedia.org/wiki/Kapita%C5%82_w%C5%82asny
+, DEBT, DERIVATIVES, MUTUAL FUNDS, HYBRIDS
 dividends: cumulative, non-cumulative, participating, non-participating
 quotes and orders
 
+instrumenty pochodne na akcje, indeksy gieldowe, waluty, stope procentowa
 
-futures, forwards
+futures, forwards, swaps (symetryczne, obie strony przyjmuja zobowiazania)
+opcje (asymetryczne, jedna strona nabywa prawo a druga przyjmuje zobowiazanie)
 
 futures:
-dluga pozycja - kupno
-krotka pozycja - sprzedaz
+sprzedajacy zobowiazuje sie sprzedac dany instrument bazowy za okreslona cene w okreslonym terminie
+otwarcie pozycji na kontrakcie terminowym - zawarcie kupna lub sprzedazy instrumentu
+dluga pozycja - kupno (zalozenie ze instrument bazowy bedzie rosnal)
+krotka pozycja - sprzedaz (zalozenie ze instrument bazowy bedzie spadal)
+dzwignia finansowa
+baza (rozna pomiedzy kursem instrumentu pochodnego a bazowego) = kurs kontraktu (cena futures) - wartosc indeksu (cena spot)
+powszechne przekonania baza+ optymizm, baza- pesymizm
 
 forwards:
 kontrakt terminowy poza gielda (rynek nieregulowany) gdzie jedna ze stron jest bank lub izba inwestycyjna
@@ -16,8 +26,6 @@ kontrakt terminowy poza gielda (rynek nieregulowany) gdzie jedna ze stron jest b
 opcje:
 mozliwosc kupna instrumentu bazowego
 mozliwosc sprzedazy instrumentu bazowego
-dluga pozycja - posiadacz opcji
-krotka pozycja - wystawiacz opcji
 
 wystawiacz opcji przyjmuje zobowiazanie
 suma zalezna od wartosci instrumentu podstawowego a cena wykonania
@@ -28,6 +36,323 @@ opcja sprzedazy jest wykonywana gdy cena wykonania jest wyzsza niz wartosc instr
 zakup opcji kupna zabezpiecza przed wzrostem instrumentu podstawowego
 zakup opcji sprzedazy zabezpiecza przed spadkiem instrumentu podstawowego
 
+cele opcji:
+- zabezpieczenie akcji przed spadkiem wartosci
+- zwiekszenie przychodu akcji
+- przygotowanie strategii kupna akcji po nizszej cenie
+- przygotowanie strategii osiagniecia zysku w warunkach znacznej zmiany instrumentu bazowego niezaleznie od kierunku zmiany
+- osiaganie zysku na wzroscie lub spadku ceny akcji (instrumentu bazowego) bez ponoszenia kosztow podczas bezposredniego inwestowaniu w akcje
+
+
 spekulacja dot opcji
 zakup opcji kupna w oczekiwaniu wzrostu ceny instrumentu podstawowego
 zakup opcji sprzedazy w oczekiwaniu spadku ceny instrumentu podstawowego
+sprzedaz opcji kupna w oczekiwaniu spadku ceny instrumentu podstawowego
+sprzedaz opcji sprzedazy w oczekiwaniu wzrostu ceny instrumentu podstawowego
+
+rozliczenia dot opcji to rozliczenie nierzeczywiste czyli roznica cen
+
+pozycje dot opcji:
+dluga pozycja - posiadacz opcji
+krotka pozycja - wystawiacz opcji
+
+dluga pozycja w opcjach kupna - ryzyko dla nabywcy ograniczone do wysokosci zaplaconej premii, zysk nieograniczony
+dluga pozycja w opcjach sprzedazy - ryzyko dla nabywcy ograniczone do wysokosci zaplaconej premii, zysk ograniczony do ceny wykonania
+krotka pozycja w opcjach kupna - ryzyko dla wystawcy nieograniczone, zysk premia za ryzyko
+krotka pozycja w opcjach sprzedazy - ryzyko dla wystawcy ograniczone do ceny wykonania, zysk premia za ryzyko
+
+czynniki wplywajace na wartosci opcji:
+wysokosc stop procentowych - wzrost stopy procentowej wolnej od ryzyka prowadzi do spadku cen opcji sprzedazy i wzrostu wartosci opcji kupna
+czas pozostajacy do wygasniecia opcji - im dluzszy czas pozostajacy do wygasniecia opcji, tym wieksza wartosc czasowa opcji
+cena instrumentu bazowego - im wyzsza cena instrumentu bazowego, tym wyzsza wartosc opcji kupna; odwrotnie dla opcji sprzedazy
+cena wykonania - cena po jakiej nabywca opcji kupna/sprzedazy moze nabyc/sprzedac instrument bazowy opcji
+zmiennosc ceny instrumentu podstawowego - jest miara niepewnosci odnosnie do przyszlych zmian tej ceny. Zmiennosc mozna wyznaczyc obliczajac odchylenie standardowe dla ceny instrumentu na podstawie danych przeszlych
+
+
+rynki:
+rynek glowny gieldy (podstawowy, rownolegly)
+rynek newconnect
+rynek catalyst
+rynek global connect
+
+gielda:
+system notowan ciaglych (otwarcie 9:00, zamkniecie 17:00)
+system notowan jednolitych z dwukrotnym ustalaniem kursu (11:00, 15:00)
+inwestorzy instytucjonalni oraz indywidualni
+
+
+fazy: otwarcie i zamkniecie, notowan ciaglych, dogrywki, zawieszenie, rownowazenia
+
+instrumenty bazowe (akcja, obligacja, waluta, index) - transfer kapitalu
+instrumenty pochodne () - transfer ryzyka
+
+cele instrumentow pochodnych:
+- hedging (zmniejszenie lub wyelminowanie ryzyka)
+- spekulacja
+- arbitraz (2 lub wiecej tranzakcji z zastosowaniem instrumentu podstawowego i pochodnego w celu uzyskania dochodu bez ponoszenia ryzyka)
+
+obligacje:
+emitent obligacji jest dluznikiem nabywcy obligacji, emitent zwraca pozyczke z odsetkami
+typy obligacji - skarbowe, komunalne, przedsiebiorstw
+typy obligacji ze wzgledu na oprocentowanie - o stalym oprocentowaniu, o zmiennym oprocentowaniu, indeksowane, zerokuponowe
+
+fundusze inwestycyjne:
+fundusz inwestycyjny otwarty, fundusz inwestycyjny zamkniety, ETF
+
+etf:
+ryzyko rynkowe - spadek wartosci indeksu, ryzyko walutowe - spadek wartosci waluty w przypadku indeksow zagranicznych, ryzyko emitenta - ryzyko usuniecia etf z gieldy
+
+wiadomosci ogolne:
+inwestor otwiera rachunek w biurze maklerskim otrzymuje numer klasyfikacji klienta NKK nadawany przez krajowy depozyt papierow wartosciowych KDPW
+fundusze powiernicze zostaly wyparte przez fundusze inwestycyjne
+
+https://edukacjagieldowa.pl/gieldowe-abc
+https://www.ing.pl/wiem
+
+==============================================================
+==============================================================
+==============================================================
+
+przemyslenia:
+najlepiej na gieldzie stoja banki i firmy technolgiczne ktore podazaja za nowymi trendami przykladowo
+hp ktorej laptopy sa uzywane w firmach i caly czas sa zamowienia na sprzet przez korporacje
+banki stoja dobrze bo ludzie musza miec konta w bankach i byc ich klientami
+stac beda dobrze rowniez firmy tworzace oprogramowanie majace oddzialy w wielu krajach, poniewaz w pewien sposob monopolizuja rynek majac dostep do nieograniczonego kapitalu
+dodatkowo firmy ktore zatrudniaja kontraktorow moga dobrze rokowac bo to jednoznacznie wskazuje ze maja srodki aby ich najmowac (tutaj mam informacje z pierwszej reki)
+dobrze stojace banki z wykresem w gore sa idealne pod akcje, poniewaz sa stabilne i rosnace, maja silna pozycje w swiecie
+mozna dodatkowo zwiekszyc zysk przez zrobienie option-call wtedy storpedujemy zysk z akcji
+
+slabo zwkle stoja firmy gastronomiczne czy produkujace odziez z pominieciem najwiekszych graczy czyli firmy odziezowe drugiej kategorii
+slabo stojace firmy sa idealne pod option-put
+
+Call options allow investors to benefit from rising stock prices. 
+A call option has three important characteristics: a strike price, an expiration date, and a purchase price. 
+The standard call option controls 100 shares of an underlying stock because it gives the buyer the right to purchase 100 shares of an underlying stock.
+
+If an investor wants to benefit from a rise in XYZ stock, they could buy a call option contract that fit the price move and the time frame they expected for XYZ to rise. 
+The profit that an investor makes will be the difference between the purchase and sale price of the option. 
+
+Suppose XYZ stock was trading at $92 per share. If option sellers were offering option contracts with strike prices at $90 per share and $100 per share. 
+The option sellers offered several expiration dates for these options including 7 days later, 30 days later, and other contracts with longer timeframes.
+
+The investor believes that XYZ stock will rise above $98 per share in the next two weeks or so. 
+As this investor considers which option to use, they realize that the 90 call option expiring 30 days later fits the anticipated move better than the $100 strike price.
+
+Now suppose the option seller prices the 90 call option at $6.00 per share, reflecting a belief that XYZ will not be priced above $96 per share 30 days from now.
+
+Let’s compare three possible scenarios for the outcome of this trade:
+
+XYZ rises to $100 per share 30 days later, option price = $1,000
+
+The buyer makes a profit of $600 per share on the day of expiration. The seller loses $400.
+
+XYZ falls to $80 per share 30 days later, option price = $0
+
+The buyer loses $600. The seller profits keeping the $600.
+
+XYZ rises to $105 in 7 days, option price= $1,600. 
+XYZ falls to $102 on the next day, option price = $1,300. XYZ then slowly declines to $80 per share 30 days later, option price = $0.
+
+The buyer decides to sell on the eighth day, capturing a $700 gain by selling to a second option buyer. The second option buyer loses $700. 
+The original option seller profits from the $600 they collected since the option is now worthless.
+
+These three scenarios reflect the way a call option price can change based on the underlying stock. 
+There are many factors that affect the pricing of options, and this example is not meant to be a perfectly accurate representation of option price changes. 
+What is important for call option buyers to understand is that they will need adequate time for their anticipated move and that their strike price will affect the price of their option.
+
+
+
+Put options allow investors to benefit from falling stock prices. A put option has three important characteristics: a strike price, an expiration date, and a purchase price. 
+The standard put option controls 100 shares of an underlying stock because it gives the buyer the right to sell short 100 shares of an underlying stock.
+
+If an investor wants to benefit from a fall in XYZ stock, this investor could buy a put option contract that fit the price move and the time frame expected for XYZ to fall. 
+The profit this investor could make will be the difference between what they paid for the put option, and what they were able to sell it for later.
+
+Suppose XYZ stock was trading at $68 per share. If the option sellers were offering put option contracts with strike prices at $70 per share and $60 per share. 
+The option sellers offered several expiration dates for these options including 7 days later, 30 days later, and other contracts with longer timeframes.
+
+The investor believes that XYZ stock will fall below $50 per share in the next two weeks or so. 
+As they consider which option to use, they realize that the 60 put option expiring 30 days later is a better fit for the move they anticipate. 
+That’s because it is less expensive now but may become much more expensive later.
+
+Suppose also that the put option seller prices the 60 put option at $1.00 per share, reflecting their belief that XYZ will not be priced below $59 in one month. 
+Consider the possible outcomes of this trade:
+
+XYZ falls to $50 per share 30 days later, option price = $1,000
+
+The buyer makes a profit of $900 per share on the day of expiration. The seller loses $900.
+
+XYZ rises to $80 per share 30 days later, option price = $0.
+
+The buyer loses $100. The seller profits keeping the $100.
+
+XYZ falls to $45 in seven days, option price = $1,600. XYZ rises to $49 on the next day, option price = $1,200. 
+XYZ then slowly rises to $80 per share 30 days later, option price = $0.
+
+The buyer decides to sell on the eighth day, capturing a $1,100 gain by selling to a second put option buyer. 
+The second option buyer loses $1,100. The original option seller profits from the $100 they collected since the option is now worthless.
+
+These three scenarios reflect the way a put option price can change based on the underlying stock. 
+Since put options can be exercised and become short sale positions, the profit from this trade grows larger as the price of XYZ falls.
+
+
+
+Options allow investors to control shares of a stock, so that they can have a choice whether to open a position in the stock later at a predetermined price. 
+The option has an expiration date, so the investor must decide whether to exercise the option before it expires. 
+The nature of an option gives it three distinct characteristics: leverage, probability pricing, and flexibility.
+
+Options represent a predefined contract to control and benefit from, the movement of a set number of shares of stock. 
+Standard contracts are for 100 shares. The price of an option is quoted for just one share of stock. 
+A standard option contract with a quoted price of $3.00 would cost $300, plus commissions, to purchase. 
+This is typically a much smaller amount than the cost of purchasing the stock outright. 
+For example, if the purchase price of the stock were $78, then 100 shares of the stock would cost $7,800. This allows the investor to initially use a lot less capital to make the trade.  
+
+There are two types of options, calls and puts, and both work as a bet on probability. 
+The purchaser of the option is making a bet that the price of the underlying stock will likely move strongly higher (for a call option) or strongly lower (for a put option) 
+before it expires. The option seller is making a bet that the purchaser is wrong. The price of the option represents the bet made between them.
+
+Option trades are highly flexible in that the purchaser can select from a list of expiration dates. 
+The longer the expiration, the higher the price of the option contract. 
+However, an option buyer doesn’t have to hold the option all the way until the expiration date. 
+The buyer can choose, for any reason, to get out of the trade right away. To close out the trade, the buyer simply must sell their contract to another buyer before expiration. 
+This gives the buyer the flexibility for a longer trade, all the way to expiration, or a shorter trade for days, hours, or even minutes. 
+The price that they will be able to sell depends on the demand from other buyers, and the supply from other sellers.
+
+If an investor believes that stock XYZ will increase in value from $70 to $80 within the next two weeks, they purchase a call option with a strike price of $70 to capture gains from this move. The call option has a purchase price of $5 per share. The investor will need to spend $500 to purchase this option. This reflects that the option seller thinks the stock will not move more than $5 higher before it expires.
+
+Two weeks later XYZ stock increased in price to $83. The price of the option is now $13 per share and the contract sells for $1,300 just before expiration. The investor paid $500 for the contract, so the net gain was $800 for the trade. The investor only had to spend $500 to make the trade. Had the investor purchased the stock, it would have required $7,000 to initiate the trade. Because of this leverage, the investor made a gain of 166% on capital, compared to an 11.4% gain on capital with the purchase of XYZ stock.
+
+
+==============================================================
+==============================================================
+==============================================================
+
+https://www.google.com/search?q=bonds&rlz=1C1GCFQ_enPL1120PL1120&oq=bonds&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAtIBCDEyMThqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=shares+and+stock&rlz=1C1GCFQ_enPL1120PL1120&oq=shares+and+stock&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCDMyMjRqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=equity+deriviates&rlz=1C1GCFQ_enPL1120PL1120&oq=equity+deriviates&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCDM0NDFqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=indexes+financial&rlz=1C1GCFQ_enPL1120PL1120&oq=indexes+financial&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCDUyNzdqMGoxqAIAsAIB&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=secured+debt&rlz=1C1GCFQ_enPL1120PL1120&oq=secured+debt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAtIBCDE5MjNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=debenture&rlz=1C1GCFQ_enPL1120PL1120&oq=debenture&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDE2MTNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=interest+rate&rlz=1C1GCFQ_enPL1120PL1120&oq=interest+rate&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAtIBCDIxNzVqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=dividends&rlz=1C1GCFQ_enPL1120PL1120&oq=dividends&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAtIBCDE1NjFqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=futures+options+swaps&rlz=1C1GCFQ_enPL1120PL1120&oq=futures+options+swaps&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCTExNDM2ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
+https://capgemini.sharepoint.com/:p:/r/sites/fsplbcm/_layouts/15/Doc.aspx?sourcedoc=%7B8EB19BA8-C1B1-4046-85CD-6DBCDEFE6721%7D&file=BCM%20Academy_Capital%20Markets_presentation_v2.2.pptx&action=edit&mobileredirect=true
+https://razorpay.com/blog/card-tokenisation-all-you-need-to-know/
+https://www.investopedia.com/terms/l/liquidity-coverage-ratio.asp
+https://www.investopedia.com/articles/personal-finance/050515/how-swift-system-works.asp
+https://tipalti.com/mass-payments-hub/what-is-swift/
+https://www.google.com/search?q=Treasury+bonds+are+considered+a+safe+form+of+investment&sca_esv=eb29a46433157e1a&rlz=1C1GCFQ_enPL1120PL1120&biw=1360&bih=599&ei=VIvRZrmGC_-Qxc8P67vK8Ac&ved=0ahUKEwi5gPWhrpyIAxV_SPEDHeudEn44ChDh1QMIEQ&uact=5&oq=Treasury+bonds+are+considered+a+safe+form+of+investment&gs_lp=Egxnd3Mtd2l6LXNlcnAiN1RyZWFzdXJ5IGJvbmRzIGFyZSBjb25zaWRlcmVkIGEgc2FmZSBmb3JtIG9mIGludmVzdG1lbnQyBRAhGKABSMQHUJUDWJUDcAF4AZABAJgBhgGgAYYBqgEDMC4xuAEDyAEA-AEC-AEBmAICoAKNAcICChAAGLADGNYEGEeYAwCIBgGQBgOSBwMxLjGgB4IC&sclient=gws-wiz-serp
+https://www.investopedia.com/financial-edge/0312/the-basics-of-bonds.aspx
+https://www.forbes.com/councils/forbesfinancecouncil/2023/04/20/underwriting-your-underwriter-ipo/
+https://www.google.com/search?q=OTC+gielda&sca_esv=8e99831eb58f4f25&rlz=1C1GCFQ_enPL1120PL1120&ei=kJHRZqO3LMOE7NYP47GQwAc&ved=0ahUKEwijv5qbtJyIAxVDAtsEHeMYBHgQ4dUDCBE&uact=5&oq=OTC+gielda&gs_lp=Egxnd3Mtd2l6LXNlcnAiCk9UQyBnaWVsZGEyBxAAGIAEGA0yCBAAGKIEGIkFMggQABiABBiiBDIIEAAYgAQYogRIlw9QmQNY7w5wAXgBkAEAmAF0oAGrBKoBAzUuMbgBA8gBAPgBAZgCB6ACvATCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICChAAGIAEGEMYigXCAgUQABiABMICDhAuGIAEGMcBGI4FGK8BwgIGEAAYFhgemAMAiAYBkAYKkgcDNi4xoAeZGg&sclient=gws-wiz-serp
+https://www.home.saxo/learn/guides/financial-literacy/what-is-otc-trading
+https://www.schwab.com/stocks/understand-stocks/otc-stock
+https://www.forbes.com/advisor/investing/otc-market/
+https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/preferred-shares/
+https://www.bankrate.com/investing/what-is-preferred-stock/
+https://corporatefinanceinstitute.com/resources/valuation/what-is-beta-guide/
+https://www.google.com/search?q=There+are+bonds+which+are+not+paid+any+interests&sca_esv=8e99831eb58f4f25&rlz=1C1GCFQ_enPL1120PL1120&ei=iJfRZp2AMa-Lxc8PubOl0QY&ved=0ahUKEwid5OzzuZyIAxWvRfEDHblZKWoQ4dUDCBE&uact=5&oq=There+are+bonds+which+are+not+paid+any+interests&gs_lp=Egxnd3Mtd2l6LXNlcnAiMFRoZXJlIGFyZSBib25kcyB3aGljaCBhcmUgbm90IHBhaWQgYW55IGludGVyZXN0czIIEAAYgAQYogRI3RFQzgJYlQ9wAXgAkAEAmAGJAaABrQKqAQMyLjG4AQPIAQD4AQL4AQGYAgOgAvIBwgIKEAAYsAMY1gQYR5gDAIgGAZAGA5IHAzEuMqAH4AQ&sclient=gws-wiz-serp
+https://www.law.cornell.edu/wex/common_stock
+https://www.investopedia.com/terms/l/liquidasset.asp
+https://www.investopedia.com/ask/answers/051815/what-difference-between-nostro-and-vostro-account.asp
+https://www.paysera.pl/v2/pl-PL/blog/czym-jest-sepa
+https://www.google.com/search?q=retail+banks+vs+commercial+banks+vs+investment+banks+vs+central+banks&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banks+vs+commercial+banks+vs+investment+banks+vs+central+banks&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCTIxMDQzajBqMagCALACAA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAjIHCAMQIRiPAtIBCTMwMTQ3ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks+vs+private+banks&sca_esv=3a158260ac093e64&sca_upv=1&rlz=1C1GCFQ_enPL1120PL1120&ei=Sa7RZr3eAbiUxc8P9ty9oAc&ved=0ahUKEwj9pofNz5yIAxU4SvEDHXZuD3QQ4dUDCBA&uact=5&oq=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks+vs+private+banks&gs_lp=Egxnd3Mtd2l6LXNlcnAiT3JldGFpbCBiYW5rcyB2cyBjb21tZXJjaWFsIGNvb3BlcmF0ZSBiYW5rcyB2cyBpbnZlc3RtZW50IGJhbmtzIHZzIHByaXZhdGUgYmFua3NI3hlQxwZY3hhwAXgBkAEAmAFgoAG_BaoBATi4AQPIAQD4AQGYAgGgAgbCAgoQABiwAxjWBBhHmAMA4gMFEgExIECIBgGQBgiSBwExoAfQFg&sclient=gws-wiz-serp
+https://www.google.com/search?q=retail+banking+vs+wholesale+banking&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banking+vs+wholesale+banking&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY0MDdqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=derivatives+futures+options+swaps&rlz=1C1GCFQ_enPL1120PL1120&oq=derivatives+futures+options+swaps&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTIzMDE5ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=ipo&rlz=1C1GCFQ_enPL1120PL1120&oq=ipo&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAjIGCAQQRRhB0gEHNzc0ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=financial+clearing&rlz=1C1GCFQ_enPL1120PL1120&oq=financial+clearing&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAjIHCAMQIRiPAtIBCDQxODNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=rtgs&rlz=1C1GCFQ_enPL1120PL1120&oq=rtgs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDExMTlqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.investopedia.com/terms/a/account_settlement.asp
+https://en.wikipedia.org/wiki/Settlement_(finance)
+https://servicecentral.capgemini.com/sc?id=ticket&is_new_order=true&table=incident&sys_id=e04033ae33e49e50abfdaf934d5c7b6b
+https://servicecentral.capgemini.com/sc?id=ticket&table=incident&sys_id=e04033ae33e49e50abfdaf934d5c7b6b
+https://www.google.com/search?sca_esv=5009c1303de011b0&sca_upv=1&rlz=1C1GCFQ_enPL1120PL1120&q=settlement+of+debts+incurred&spell=1&sa=X&ved=2ahUKEwiJw9DOruOIAxXeExAIHd78FkgQBSgAegQICxAB&biw=1280&bih=631&dpr=1.5
+https://www.google.com/search?q=collateral+po+ang&sca_esv=5009c1303de011b0&sca_upv=1&rlz=1C1GCFQ_enPL1120PL1120&ei=O8n2Zv2rKaTOwPAP2Z6B2A8&ved=0ahUKEwi9tcvAsuOIAxUkJxAIHVlPAPsQ4dUDCBA&uact=5&oq=collateral+po+ang&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWNvbGxhdGVyYWwgcG8gYW5nMggQABgWGB4YDzIIEAAYFhgeGA8yCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEj5EVDPA1i_EXABeAGQAQCYAXegAaoEqgEDNC4yuAEDyAEA-AEBmAIHoAK_BMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBAcICChAAGIAEGEMYigXCAgUQABiABMICBRAuGIAEwgIIEC4YgAQY1ALCAgoQLhiABBhDGIoFwgINEAAYgAQYRhj_ARijBcICBhAAGBYYHsICChAAGIAEGEYY_wHCAggQABgWGAoYHpgDAIgGAZAGE7oGBggBEAEYCZIHAzUuMqAHxkE&sclient=gws-wiz-serp
+https://www.google.com/search?q=retail+banking+vs+prority+banking+vs+private+banking&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banking+vs+prority+banking+vs+private+banking&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKAB0gEJMTI4ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+https://www.investopedia.com/terms/i/investmentbank.asp
+https://www.investopedia.com/terms/i/investment-banking.asp
+https://www.youtube.com/watch?v=J_K1TECpuFs
+https://corporatefinanceinstitute.com/resources/commercial-lending/corporate-banking/
+https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/
+https://www.predictiveanalyticstoday.com/what-is-corporate-banking-industry/
+https://www.investopedia.com/articles/general/071213/retail-banking-vs-commercial-banking.asp
+https://www.temenos.com/news/2019/12/19/what-is-digital-banking/
+https://www.investopedia.com/terms/f/financialinstrument.asp
+https://www.fe.training/free-resources/lbo/financial-instruments/
+https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/financial-instrument/
+https://www.investopedia.com/terms/f/financial-market.asp
+https://capgemini.sharepoint.com/sites/NurtureLearningJourney/Shared%20Documents/General/Wealth%20Management%20Pathway/Module%202%20-%20Back%20Office%20V2.0%20.pdf?CID=c4997aaa-0f98-450f-a016-37a9c3305c2b
+https://www.investopedia.com/ask/answers/08/difference-between-a-shareholder-and-a-stakeholder.asp
+https://asana.com/pl/resources/stakeholder-vs-shareholder
+https://www.linkedin.com/pulse/understanding-difference-between-shareholder-stakeholder-9czgf?trk=organization_guest_main-feed-card_feed-article-content
+https://www.investopedia.com/terms/c/corporateaction.asp
+https://www.azeusconvene.com/en-gb/articles/the-difference-between-shareholders-and-stakeholders
+https://corporatefinanceinstitute.com/resources/accounting/stakeholder-vs-shareholder/
+https://capgemini.sharepoint.com/sites/NurtureLearningJourney/Shared%20Documents/General/Wealth%20Management%20Pathway/Module%202%20-%20Front%20Office%20V2.0.pdf?CID=de2654f8-cbc1-49cb-a570-7cf31180dba2
+https://capgemini.sharepoint.com/sites/NurtureLearningJourney/Shared%20Documents/General/Wealth%20Management%20Pathway/Module%202%20-%20Middle%20Office%20V2.0%20.pdf?CID=d8a7464f-a0d9-4971-9a47-cc31bde34143
+https://www.investopedia.com/terms/n/netting.asp
+https://www.investopedia.com/terms/c/custodian.asp
+https://www.investopedia.com/terms/c/clearingcorporation.asp#:~:text=A%20clearing%20corporation%20is%20an,a%20prompt%20and%20efficient%20manner
+https://www.investopedia.com/terms/s/shares.asp
+https://www.bajajbroking.in/knowledge-center/difference-between-stock-and-share
+https://www.bbva.com/en/financial-health/what-are-stocks-and-shares-how-do-they-work-how-did-they-arise-historically/
+https://www.bajajfinserv.in/difference-between-shares-and-stocks
+https://wholesale.banking.societegenerale.com/en/news-insights/glossary/equity-derivatives/
+https://www.investopedia.com/terms/e/equity_derivative.asp
+https://www.investopedia.com/terms/i/index.asp
+https://finance.yahoo.com/markets/world-indices/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAG97AJy9hvD6YdqbioYmq6aKI6TgxZVMooBgGpIXmwPbrcM3Uu_xCLXHOED_egn8sruQQPZsRV7qM1weinqvhb6x7BHgnuP_cNvQ6YaIHqaPumxbg-unB3id6ynEd8BlBJUTow42BcPjeMVz__BUhM5bDuFO66v6gDSRsiIB69Uw
+https://www.msci.com/our-solutions/indexes/making-complex-simple/what-are-indexes
+https://www.investopedia.com/ask/answers/061615/what-are-major-categories-financial-institutions-and-what-are-their-primary-roles.asp
+https://smartasset.com/checking-account/types-of-banks
+https://www.investopedia.com/articles/professionals/091615/career-advice-investment-banking-vscommercial-banking.asp
+https://thestaffed.com/difference-between-retail-banking-and-wholesale-banking/
+https://www.investopedia.com/terms/w/wholesalebanking.asp
+https://businessinsider.com.pl/gielda/co-to-sa-opcje-i-jak-dzialaja/40bq83m
+https://www.knf.gov.pl/knf/pl/komponenty/img/Instrumenty%20pochodne_17587.pdf
+https://encyklopedia.skarbiec.biz/kontrakty-swap.html
+https://rankia.pl/forward-futures-opcje-swapy-roznice/
+https://www.citibank.pl/pdf/edu/lipiec-2021.pdf
+https://comparic.pl/futures-spot-swap-forward-put-call-podstawowe-definicje-zwiazane-z-zabezpieczeniem-ryzyka-walutowego/
+https://sklepmartes.pl/mezczyzna/odziez-meska/kurtki-i-plaszcze-meskie/softshelle-meskie/meski-softshell-magnum-deer-20-m000149257-magnum?_gl=1*1r764or*_up*MQ..*_ga*NzczMjc0MzI5LjE3MjgxNTEwOTc.*_ga_K9DSDWMK4H*MTcyODE1MTA5My4xLjEuMTcyODE1MTM2Mi4wLjAuMA..*_ga_RH6G0TNM4N*MTcyODE1MTA5My4xLjEuMTcyODE1MTM2Mi4wLjAuMA..
+https://www.vaneck.com/pl/pl/dywidendy/
+https://www.mbank.pl/indywidualny/inwestycje-i-oszczednosci/gielda/fundusze-etf/
+https://www.blackrock.com/pl/doradcy-i-dystrybutorzy/edukacja/etf-wyjasnione#Czym-s%C4%85-fundusze-ETF%3F
+https://www.google.com/search?client=firefox-b-d&q=listy+zastawne
+https://www.google.com/search?q=certyfikaty+finanswoe&client=firefox-b-d&sca_esv=145c52a3f136767d&ei=Z0gKZ-ygIMHbxc8PmLaL8Qo&ved=0ahUKEwis8La6yoiJAxXBbfEDHRjbIq4Q4dUDCA8&uact=5&oq=certyfikaty+finanswoe&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWNlcnR5ZmlrYXR5IGZpbmFuc3dvZTIHEAAYgAQYDTIIEAAYDRgeGA8yCBAAGAgYDRgeMgoQABgIGA0YHhgPMggQABiiBBiJBTIIEAAYgAQYogQyCBAAGIAEGKIESM8dUPYDWNoccAF4AZABAJgBcKABoQeqAQM2LjS4AQPIAQD4AQGYAgugAqMIwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgoQABiABBhDGIoFwgIFEAAYgATCAgYQABgWGB7CAggQABgWGB4YD8ICBhAAGA0YHpgDAIgGAZAGCpIHAzUuNqAH-zo&sclient=gws-wiz-serp
+https://www.skarbiec.pl/news/jak-inwestowac-w-akcje-wady-i-zalety/
+
+https://pl.wikipedia.org/wiki/Opcja
+https://pl.wikipedia.org/wiki/Opcja_terminowa
+https://pl.wikipedia.org/wiki/Opcja_kupna
+https://pl.wikipedia.org/wiki/Opcja_sprzeda%C5%BCy
+https://www.fidelity.com/learning-center/investment-products/options/call-options-basics
+https://www.google.com/search?client=firefox-b-d&q=options+call
+https://www.investopedia.com/terms/b/buytoopen.asp
+https://www.investopedia.com/ask/answers/sell-open-buy-close-buy-open-sell-close-mean/
+
+
+
+
+
+
+
+
+
+
+
+
+dane nyse:
+https://stockanalysis.com/list/nyse-stocks/
+
+praktyka:
+https://www.investopedia.com/simulator/
+https://app.wallstreetsurvivor.com/account/dashboardv2
+https://gragieldowa.pl/
+https://mrnussbaum.com/storage/uploads/activities/themarket/index.html
+BWJR73
+https://stockscan.io/stock-market-simulator
+
+waszgie On@6_1$1
+naszgie -//-
