@@ -23,6 +23,10 @@ powszechne przekonania baza+ optymizm, baza- pesymizm
 forwards:
 kontrakt terminowy poza gielda (rynek nieregulowany) gdzie jedna ze stron jest bank lub izba inwestycyjna
 
+swaps:
+zmiana jednego ryzyka na drugie
+typy swapow - procentowy, walutowy
+
 opcje:
 mozliwosc kupna instrumentu bazowego
 mozliwosc sprzedazy instrumentu bazowego
@@ -101,6 +105,10 @@ fundusz inwestycyjny otwarty, fundusz inwestycyjny zamkniety, ETF
 
 etf:
 ryzyko rynkowe - spadek wartosci indeksu, ryzyko walutowe - spadek wartosci waluty w przypadku indeksow zagranicznych, ryzyko emitenta - ryzyko usuniecia etf z gieldy
+
+dywidendy:
+udzial w zysku spolki wyplacany akcjonariuszom 
+wyplacone dywidendy ktore ida na dalsze inwestowanie tworza procent skladany
 
 wiadomosci ogolne:
 inwestor otwiera rachunek w biurze maklerskim otrzymuje numer klasyfikacji klienta NKK nadawany przez krajowy depozyt papierow wartosciowych KDPW
@@ -309,20 +317,17 @@ https://smartasset.com/checking-account/types-of-banks
 https://www.investopedia.com/articles/professionals/091615/career-advice-investment-banking-vscommercial-banking.asp
 https://thestaffed.com/difference-between-retail-banking-and-wholesale-banking/
 https://www.investopedia.com/terms/w/wholesalebanking.asp
-https://businessinsider.com.pl/gielda/co-to-sa-opcje-i-jak-dzialaja/40bq83m
+
+kontrakty terminowe:
 https://www.knf.gov.pl/knf/pl/komponenty/img/Instrumenty%20pochodne_17587.pdf
 https://encyklopedia.skarbiec.biz/kontrakty-swap.html
 https://rankia.pl/forward-futures-opcje-swapy-roznice/
 https://www.citibank.pl/pdf/edu/lipiec-2021.pdf
+
 https://comparic.pl/futures-spot-swap-forward-put-call-podstawowe-definicje-zwiazane-z-zabezpieczeniem-ryzyka-walutowego/
 https://sklepmartes.pl/mezczyzna/odziez-meska/kurtki-i-plaszcze-meskie/softshelle-meskie/meski-softshell-magnum-deer-20-m000149257-magnum?_gl=1*1r764or*_up*MQ..*_ga*NzczMjc0MzI5LjE3MjgxNTEwOTc.*_ga_K9DSDWMK4H*MTcyODE1MTA5My4xLjEuMTcyODE1MTM2Mi4wLjAuMA..*_ga_RH6G0TNM4N*MTcyODE1MTA5My4xLjEuMTcyODE1MTM2Mi4wLjAuMA..
-https://www.vaneck.com/pl/pl/dywidendy/
-https://www.mbank.pl/indywidualny/inwestycje-i-oszczednosci/gielda/fundusze-etf/
-https://www.blackrock.com/pl/doradcy-i-dystrybutorzy/edukacja/etf-wyjasnione#Czym-s%C4%85-fundusze-ETF%3F
-https://www.google.com/search?client=firefox-b-d&q=listy+zastawne
-https://www.google.com/search?q=certyfikaty+finanswoe&client=firefox-b-d&sca_esv=145c52a3f136767d&ei=Z0gKZ-ygIMHbxc8PmLaL8Qo&ved=0ahUKEwis8La6yoiJAxXBbfEDHRjbIq4Q4dUDCA8&uact=5&oq=certyfikaty+finanswoe&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWNlcnR5ZmlrYXR5IGZpbmFuc3dvZTIHEAAYgAQYDTIIEAAYDRgeGA8yCBAAGAgYDRgeMgoQABgIGA0YHhgPMggQABiiBBiJBTIIEAAYgAQYogQyCBAAGIAEGKIESM8dUPYDWNoccAF4AZABAJgBcKABoQeqAQM2LjS4AQPIAQD4AQGYAgugAqMIwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgoQABiABBhDGIoFwgIFEAAYgATCAgYQABgWGB7CAggQABgWGB4YD8ICBhAAGA0YHpgDAIgGAZAGCpIHAzUuNqAH-zo&sclient=gws-wiz-serp
-https://www.skarbiec.pl/news/jak-inwestowac-w-akcje-wady-i-zalety/
 
+opcje:
 https://pl.wikipedia.org/wiki/Opcja
 https://pl.wikipedia.org/wiki/Opcja_terminowa
 https://pl.wikipedia.org/wiki/Opcja_kupna
@@ -331,8 +336,70 @@ https://www.fidelity.com/learning-center/investment-products/options/call-option
 https://www.google.com/search?client=firefox-b-d&q=options+call
 https://www.investopedia.com/terms/b/buytoopen.asp
 https://www.investopedia.com/ask/answers/sell-open-buy-close-buy-open-sell-close-mean/
+https://businessinsider.com.pl/gielda/co-to-sa-opcje-i-jak-dzialaja/40bq83m
+https://comparic.pl/premia-opcyjna-czyli-koszt-opcji/
+https://www.lynxbroker.pl/inwestowanie/gielda/opcje/opcje-podstawy/podstawy-opcji-1-czym-sa-opcje/
+http://opcjenaakcje.pl/premia-opcyjna-czym-jest-dlaczego-jest-wazna/
+https://businessinsider.com.pl/gielda/wartosc-opcji-od-czego-zalezy/0yvb72r
 
+dywidendy:
+https://www.vaneck.com/pl/pl/dywidendy/
+https://www.stockwatch.pl/dywidendy/
+https://www.infor.pl/slownik/biznes/688930,Stopa-dywidendy.html
+https://businessinsider.com.pl/poradnik-finansowy/oszczedzanie/stopa-dywidendy-co-to-jest-jak-ja-obliczyc-i-co-oznacza-dla-inwestora/yrdd38q
+https://www.avatrade.pl/education/market-terms-pl/what-are-dividends
+https://www.xtb.com/pl/edukacja/stopa-dywidendy-co-to-jest-stopa-dywidendy
+https://www.ing.pl/indywidualni/inwestycje-i-oszczednosci/nauka-inwestowania/inwestor-zaawansowany/dywidendy
+https://pl.wikipedia.org/wiki/Stopa_dywidendy
 
+etf:
+https://www.mbank.pl/indywidualny/inwestycje-i-oszczednosci/gielda/fundusze-etf/
+https://www.blackrock.com/pl/doradcy-i-dystrybutorzy/edukacja/etf-wyjasnione#Czym-s%C4%85-fundusze-ETF%3F
+
+listy zastawne:
+https://businessinsider.com.pl/gospodarka/makroekonomia/czym-sa-listy-zastawne/pz0tgxh
+https://pl.wikipedia.org/wiki/List_zastawny
+
+certyfikaty:
+https://bossa.pl/edukacja/rynek-i-inwestycje/instrumenty-finansowe/certyfikaty-strukturyzowane-etp
+https://bossa.pl/edukacja/rynek-i-inwestycje/instrumenty-finansowe/certyfikaty-strukturyzowane-etp/certyfikaty
+https://bossa.pl/edukacja/rynek-i-inwestycje/instrumenty-finansowe/certyfikaty-strukturyzowane-etp/standardy
+https://www.santander.pl/inwestor/rynek-pierwotny/produkty-strukturyzowane-select/certyfikaty-ochrona-pln-enel-engie
+https://www.finanse.egospodarka.pl/144842,Certyfikaty-strukturyzowane-Duzy-zysk-male-ryzyko,1,60,1.html
+https://www.finanse.egospodarka.pl/72147,Jaki-certyfikat-strukturyzowany,1,48,1.html
+https://www.skarbiec.pl/news/jak-inwestowac-w-akcje-wady-i-zalety/
+
+procent skladany:
+https://www.bankier.pl/smart/procent-skladany-droga-do-finansowej-niezaleznosci
+https://www.money.pl/gospodarka/czym-jest-procent-skladany-i-do-czego-sie-go-wykorzystuje-6780785368849280a.html
+https://zpe.gov.pl/a/procent-skladany/DcV6vN47s
+
+dzwignia finansowa:
+https://www.xtb.com/pl/edukacja/inwestowanie-z-dzwignia
+
+surowce:
+https://www.xtb.com/pl/edukacja/surowce
+https://www.xtb.com/pl/edukacja/coffee-trading
+https://www.xtb.com/pl/edukacja/inwestowanie-uran
+https://www.xtb.com/pl/edukacja/zywiec-wolowy
+https://www.xtb.com/pl/edukacja/gaz-ziemny
+
+metale:
+https://www.xtb.com/pl/edukacja/inwestowanie-w-srebro
+https://www.xtb.com/pl/edukacja/dlaczego-powinienes-wybrac-gold-cfd
+
+wiadomosci ogolne:
+https://www.xtb.com/pl/edukacja/akcje-etf-definicje
+https://www.xtb.com/pl/edukacja/kapitalizacja-gieldowa
+https://www.xtb.com/pl/edukacja/sp-500-trading
+https://www.xtb.com/pl/edukacja/ask-price-co-to-jest-cena-ask
+https://www.xtb.com/pl/edukacja/bid-price-co-to-jest-cena-sprzedazy
+https://www.xtb.com/pl/edukacja/cfd-definicje
+https://www.xtb.com/pl/edukacja/co-to-jest-pips
+https://www.xtb.com/pl/edukacja/co-to-jest-spread
+https://www.xtb.com/pl/edukacja/forex-definicje
+https://www.xtb.com/pl/edukacja/forex
+https://www.xtb.com/pl/edukacja/para-walutowa
 
 
 
@@ -351,8 +418,29 @@ https://www.investopedia.com/simulator/
 https://app.wallstreetsurvivor.com/account/dashboardv2
 https://gragieldowa.pl/
 https://mrnussbaum.com/storage/uploads/activities/themarket/index.html
-BWJR73
-https://stockscan.io/stock-market-simulator
+HRBK29
 
 waszgie On@6_1$1
 naszgie -//-
+
+
+eventlog:
+#######################
+##### wall-street #####
+#######################
+Portfolio Value $102,099.50
+Return Percentage 2,1% Cash Balance $14,375.00 Buying Power $69,366.50 Current Rank 2826/55757
+
+Portfolio Value $101,870.00
+Return Percentage 1,87% Cash Balance $37,100.00 Buying Power $97,826.50 Current Rank 2947/55762
+
+################################
+##### investopedia waszgie #####
+################################
+
+wzrost opcji do 4800 16 procent - decyzja sprzedaz opcji call (20), 6 tysiecy zysku
+ 
+################################
+##### investopedia naszgie #####
+################################
+
