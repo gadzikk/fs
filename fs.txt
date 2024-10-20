@@ -70,6 +70,10 @@ wysokosc stop procentowych - wzrost stopy procentowej wolnej od ryzyka prowadzi 
 czas pozostajacy do wygasniecia opcji - im dluzszy czas pozostajacy do wygasniecia opcji, tym wieksza wartosc czasowa opcji
 cena instrumentu bazowego - im wyzsza cena instrumentu bazowego, tym wyzsza wartosc opcji kupna; odwrotnie dla opcji sprzedazy
 cena wykonania - cena po jakiej nabywca opcji kupna/sprzedazy moze nabyc/sprzedac instrument bazowy opcji
+im wieksza roznica pomiedzy cena wykonania a cena bazowa tym tansza opcja
+im mniejsza roznica pomiedzy cena wykonania a cena bazowa tym drozsza opcja
+im dluzszy okres waznosci tym drozsza opcja
+im dluzszy czas do wygasniecia tym wieksza wartosc opcji
 zmiennosc ceny instrumentu podstawowego - jest miara niepewnosci odnosnie do przyszlych zmian tej ceny. Zmiennosc mozna wyznaczyc obliczajac odchylenie standardowe dla ceny instrumentu na podstawie danych przeszlych
 
 
@@ -132,6 +136,25 @@ mozna dodatkowo zwiekszyc zysk przez zrobienie option-call wtedy storpedujemy zy
 
 slabo zwkle stoja firmy gastronomiczne czy produkujace odziez z pominieciem najwiekszych graczy czyli firmy odziezowe drugiej kategorii
 slabo stojace firmy sa idealne pod option-put
+
+firmy bankowe duzi gracze(gs, jpm, bac, hsbc, city, db, bcs)
+firmy bankowe zwykle notuja gwaltowne spadki w lutym, mozna wiec zagrac na option-put na poczatku roku z expiry do maja
+firmy bankowe zwykle notuja wzrost w marcu(15, 20, 30)/czerwcu jako odbicie za luty mozna wiec zagrac na option-call z expiry do konca roku
+firmy bankowe czasami notuja opozniony wzrost we wrzesniu, pazdzierniku, listopadzie
+
+niektore firmy technologiczne notuja ciagly zysk nvdia, oracle, motorola
+
+jezeli wykres jest niereguralny to najbardziej prawdopodobny jest spadek czyli idealne pod option-put
+
+mozna sprobowac zagranie na tanie opcje przeciwstawne, option-call na kurs odbiegajacy mocno od obecnego
+przykladowo option-call 10 do gory oraz option-put na 10 w dol, ktoras z tych inwestycji przegra ale opcja bedzie tania
+i jezeli wejdzie to zysk bedzie duzy, obstawiamy wtedy ze gwaltownie cena sie ruszy w jedna lub w druga strone
+
+mozna sprobowac zagrac na tanie option-put firm ktorych zysk od jakiegos czasu jest duzy (trending)
+
+mozna sprobowac zagrac dokladnie odwrotnie do tego co mowia w kantorach i w telewizji
+
+
 
 Call options allow investors to benefit from rising stock prices. 
 A call option has three important characteristics: a strike price, an expiration date, and a purchase price. 
@@ -317,15 +340,16 @@ https://smartasset.com/checking-account/types-of-banks
 https://www.investopedia.com/articles/professionals/091615/career-advice-investment-banking-vscommercial-banking.asp
 https://thestaffed.com/difference-between-retail-banking-and-wholesale-banking/
 https://www.investopedia.com/terms/w/wholesalebanking.asp
+https://www.bloomberg.com/europe
+
+PL
 
 kontrakty terminowe:
 https://www.knf.gov.pl/knf/pl/komponenty/img/Instrumenty%20pochodne_17587.pdf
 https://encyklopedia.skarbiec.biz/kontrakty-swap.html
 https://rankia.pl/forward-futures-opcje-swapy-roznice/
 https://www.citibank.pl/pdf/edu/lipiec-2021.pdf
-
 https://comparic.pl/futures-spot-swap-forward-put-call-podstawowe-definicje-zwiazane-z-zabezpieczeniem-ryzyka-walutowego/
-https://sklepmartes.pl/mezczyzna/odziez-meska/kurtki-i-plaszcze-meskie/softshelle-meskie/meski-softshell-magnum-deer-20-m000149257-magnum?_gl=1*1r764or*_up*MQ..*_ga*NzczMjc0MzI5LjE3MjgxNTEwOTc.*_ga_K9DSDWMK4H*MTcyODE1MTA5My4xLjEuMTcyODE1MTM2Mi4wLjAuMA..*_ga_RH6G0TNM4N*MTcyODE1MTA5My4xLjEuMTcyODE1MTM2Mi4wLjAuMA..
 
 opcje:
 https://pl.wikipedia.org/wiki/Opcja
@@ -341,6 +365,8 @@ https://comparic.pl/premia-opcyjna-czyli-koszt-opcji/
 https://www.lynxbroker.pl/inwestowanie/gielda/opcje/opcje-podstawy/podstawy-opcji-1-czym-sa-opcje/
 http://opcjenaakcje.pl/premia-opcyjna-czym-jest-dlaczego-jest-wazna/
 https://businessinsider.com.pl/gielda/wartosc-opcji-od-czego-zalezy/0yvb72r
+https://www.tradingforaliving.pl/opcje/
+https://www.tradingforaliving.pl/co-to-sa-leaps-dlugoterminowe-opcje-call/
 
 dywidendy:
 https://www.vaneck.com/pl/pl/dywidendy/
@@ -355,6 +381,8 @@ https://pl.wikipedia.org/wiki/Stopa_dywidendy
 etf:
 https://www.mbank.pl/indywidualny/inwestycje-i-oszczednosci/gielda/fundusze-etf/
 https://www.blackrock.com/pl/doradcy-i-dystrybutorzy/edukacja/etf-wyjasnione#Czym-s%C4%85-fundusze-ETF%3F
+https://www.tradingforaliving.pl/encyklopedia/etf/
+https://www.tradingforaliving.pl/inwestowanie-pasywne-w-najlepsze-etf-zakup-opcjami/
 
 listy zastawne:
 https://businessinsider.com.pl/gospodarka/makroekonomia/czym-sa-listy-zastawne/pz0tgxh
@@ -376,6 +404,15 @@ https://zpe.gov.pl/a/procent-skladany/DcV6vN47s
 
 dzwignia finansowa:
 https://www.xtb.com/pl/edukacja/inwestowanie-z-dzwignia
+https://businessinsider.com.pl/poradnik-finansowy/inwestowanie/dzwignia-finansowa-cel-uzycia-i-zasada-dzialania-narzedzia/xhbp38y
+https://www.money.pl/gospodarka/dzwignia-finansowa-co-to-jest-6918038170323904a.html
+https://faktoria.pl/porady/dzwignia-finansowa-czym-jest-i-jak-dziala/
+
+broker makler:
+https://businessinsider.com.pl/gielda/kim-jest-broker-i-czym-sie-zajmuje/e3q119c
+https://blog.eliteexpert.club/kim-jest-broker-gieldowy/
+https://www.blackwall.pl/broker-a-dom-maklerski-jaka-jest-roznica/
+https://direct.money.pl/artykuly/porady/czym-sie-rozni-makler-od-brokera
 
 surowce:
 https://www.xtb.com/pl/edukacja/surowce
@@ -400,7 +437,17 @@ https://www.xtb.com/pl/edukacja/co-to-jest-spread
 https://www.xtb.com/pl/edukacja/forex-definicje
 https://www.xtb.com/pl/edukacja/forex
 https://www.xtb.com/pl/edukacja/para-walutowa
-
+https://www.xtb.com/pl/edukacja/co-to-jest-kabel-na-forex
+https://www.tradingforaliving.pl/encyklopedia/large-cap/
+https://www.tradingforaliving.pl/inwestowac-za-granica/
+https://www.tradingforaliving.pl/jak-inwestowac-na-gieldzie/
+https://www.tradingforaliving.pl/analiza-techniczna-wskazniki/
+https://www.tradingforaliving.pl/analiza-fundamentalna-spolki-wskazniki-zadluzenia-rentownosci/
+https://www.tradingforaliving.pl/inwestowanie-na-gieldzie-za-granica/
+https://www.tradingforaliving.pl/anatomia-spadkow-dlaczego-rynek-zachowuje-sie-ostatnio-tak-gwaltownie/
+https://www.tradingforaliving.pl/dlaczego-akcje-rosna-i-spadaja/
+https://www.tradingforaliving.pl/jak-kupic-obligacje-korporacyjne/
+https://www.tradingforaliving.pl/jak-analizuje-spolki-do-inwestycji-piec-kluczowych-etapow-oceny-akcji-gieldowych/
 
 
 
@@ -418,7 +465,7 @@ https://www.investopedia.com/simulator/
 https://app.wallstreetsurvivor.com/account/dashboardv2
 https://gragieldowa.pl/
 https://mrnussbaum.com/storage/uploads/activities/themarket/index.html
-HRBK29
+BGKU22
 
 waszgie On@6_1$1
 naszgie -//-
