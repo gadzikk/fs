@@ -154,6 +154,8 @@ mozna sprobowac zagrac na tanie option-put firm ktorych zysk od jakiegos czasu j
 
 mozna sprobowac zagrac dokladnie odwrotnie do tego co mowia w kantorach i w telewizji
 
+na tanie option-put nalezy grac na kilka kursow dobra jest dywersyfikacja i granie na 4 kursy tanich opcji
+
 
 
 Call options allow investors to benefit from rising stock prices. 
@@ -423,6 +425,8 @@ https://www.xtb.com/pl/edukacja/gaz-ziemny
 
 metale:
 https://www.xtb.com/pl/edukacja/inwestowanie-w-srebro
+https://businessinsider.com.pl/poradnik-finansowy/inwestowanie/10-zasad-inwestowania-w-srebro/9f3m2pc
+https://www.kontomaniak.pl/poradniki/inwestowanie-w-srebro
 https://www.xtb.com/pl/edukacja/dlaczego-powinienes-wybrac-gold-cfd
 
 wiadomosci ogolne:
@@ -481,13 +485,37 @@ Return Percentage 2,1% Cash Balance $14,375.00 Buying Power $69,366.50 Current R
 Portfolio Value $101,870.00
 Return Percentage 1,87% Cash Balance $37,100.00 Buying Power $97,826.50 Current Rank 2947/55762
 
+kupiono GOOG option-call - w obecnej chwili akcje delikatnie spadaja
+kupiono INTC option-call - wykres w tej samej pozycji
+kupiono ORCL option-put - obecnie duzy wzrost zapowiada sie spadek
+kupiono MSI option-put - obecnie duzy wzrost zapowiada sie spadek
+kupiono TMUS option-put - obecnie duzy wzrost zapowiada sie spadek
+kupiono CSCO option-put - obecnie duzy wzrost zapowiada sie spadek
+
+podjecie decyzji o sprzedaniu option-call GOOG 2,5 tys zysku
+GOOG2420L155 	25.0000 	$16.43 	17.40 	$43,500.00 	2,425.00 	5.90%
+
+czekam dalej z CSCO, ORCL, INTC narazie na zielono wszystko ale delikatnie
+INTC2521B22 	20.0000 	$3.50 	3.69 	$7,380.00 	380.00 	5.43% 	Trade Exercise
+ORCL2517M165 	20.0000 	$5.45 	6.00 	$12,000.00 	1,100.00 	10.09% 	Trade Exercise
+TMUS2517M210 	20.0000 	$5.35 	2.75 	$5,500.00 	-5,200.00 	-48.60% 	Trade Exercise
+CSCO2517M52.5 	80.0000 	$0.98 	1.14 	$9,120.00 	1,280.00 	16.33% 
+
+podjecie decyzji o sprzedaniu option-call ORCL 1 tys zysku
+
 ################################
 ##### investopedia waszgie #####
 ################################
 
 wzrost opcji do 4800 16 procent - decyzja sprzedaz opcji call (20), 6 tysiecy zysku
+wzrost opcji poczatkowo 7tys pozniej 3tys - decyzja sprzedaz opcji call (10), 3 tysiecy zysku
+sprzedano akcje vinc w celu unikniecia dalszych strat 4 procent wzrostu, minimalny zysk
+kupiono SLV option-put na ponizej 29 do lutego - obecnie duzy wzrost zapowiada sie spadek
  
 ################################
 ##### investopedia naszgie #####
 ################################
 
+zaczynaja sie najwieksze spadki i wszystkie options-put ladnie wzrost najwieksza powyzej 70 procent
+wzrost opcji MCD z 5.65 do 13.65 139 procent, spadek akcji do 292, option-put na spadek ponizej 300  - decyzja sprzedaz opcji call (15), 11 tysiecy zysku
+wzrost opcji KO z 0.59 do 1.22 106 procent, spadek akcji do 65.8, option-put na spadek ponizej 65  - decyzja sprzedaz opcji call (80), 5 tysiecy zysku
