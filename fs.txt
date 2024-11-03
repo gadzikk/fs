@@ -141,6 +141,8 @@ firmy bankowe duzi gracze(gs, jpm, bac, hsbc, city, db, bcs)
 firmy bankowe zwykle notuja gwaltowne spadki w lutym, mozna wiec zagrac na option-put na poczatku roku z expiry do maja
 firmy bankowe zwykle notuja wzrost w marcu(15, 20, 30)/czerwcu jako odbicie za luty mozna wiec zagrac na option-call z expiry do konca roku
 firmy bankowe czasami notuja opozniony wzrost we wrzesniu, pazdzierniku, listopadzie
+firmy bankowe poruszaja sie w cyklach luty, sierpien, listopad - luty i sierpien to zwykle spadki
+firmy bankowe odnotowywuja odbicie zwykle w padzierniku, listopadzie
 
 niektore firmy technologiczne notuja ciagly zysk nvdia, oracle, motorola
 
@@ -156,7 +158,24 @@ mozna sprobowac zagrac dokladnie odwrotnie do tego co mowia w kantorach i w tele
 
 na tanie option-put nalezy grac na kilka kursow dobra jest dywersyfikacja i granie na 4 kursy tanich opcji
 
+gielda jest kompletnie nieprzewidywalna jednego dnia mozesz miec opcje -10 tysiecy a kolejnego juz mozesz miec je na 0 i na tym mozna zyskiwac
 
+follow 
+MA, MS, JPM, JNJ 
+mniejsze bankowe: FUNC, FRBA, FRAF, FNWB, FNWD, FNB, FDBC, FFIC, EVBN, EBMT
+gold: FNV, EQX, DRD
+bank ktory nieustajaco rosnie FCNCA
+firma finansowa ze stabilnym wykresem: FINV
+koleje: UNP, CP, CNI, CSX - wzrosty *styczen, lipiec, pazdziernik
+linie lotnicze: DAL, UAL, RYAAY - wzrosty poczatek roku do maja(lub opozniony do lipca), spadki po okresie wakacyjnym sierpien/wrzesien
+travel: ABNB, BKNG, TCOM, CCL - mozna zagrac na option-put w kwietniu, bo zawsze po kwietniu spada albo od maja do wrzesnia, mozna zagrac na option-call w listopadzie wtedy zawsze rosnie
+entertainment: WBD, FOXA, DIS, PARA, NWSA, FWONK, LYV w grudniu zawsze wzrost option-call na poczatku grudnia, w marcu zalamanie przed marcem option-put
+trucking: ODFL, XPO, SAIA, TFII w grudniu zawsze wzrost option-call na poczatku grudnia, w marcu zalamanie przed marcem option-put
+chemicals: DOW, CE, OLN, HUN, MEOH, TROX w maju wzrost option-call, w wrzesniu/pazdzierniku zalamanie option-put, po zalamaniu w padzierniku/listopadzie option-call na do conajmniej do konca roku
+restaurants: MCD, SBUX, DPZ na poczatku roku mozna zagrac na option-put, w czerwcu zalamanie option-put, we wrzesniu odbicie option-call
+- anomalia SHAK przez caly rok wzrost lub spadek, YUM raz na poczatku roku spadki a innym razem symetrycznie na poczatku roku wzrosty
+oil gas: SLB, BKR, HAL, TS, FTI, NOV, WFRD wykres sferyczny raz konsekwenty wzrost innym razem konsekwentny spadek, zwykle pazdziernik listpoad wzrost do konca roku option-call
+leisue: PLNT, HAS, MAT, CUK, zalamanie we wrzesniu, pazdzierniku wystarczy option-put w sierpniu a nastepnie przy odbiciu option-call okolo pazdziernika
 
 Call options allow investors to benefit from rising stock prices. 
 A call option has three important characteristics: a strike price, an expiration date, and a purchase price. 
@@ -369,6 +388,22 @@ http://opcjenaakcje.pl/premia-opcyjna-czym-jest-dlaczego-jest-wazna/
 https://businessinsider.com.pl/gielda/wartosc-opcji-od-czego-zalezy/0yvb72r
 https://www.tradingforaliving.pl/opcje/
 https://www.tradingforaliving.pl/co-to-sa-leaps-dlugoterminowe-opcje-call/
+https://www.tradingforaliving.pl/opcje-call-put/
+https://www.tradingforaliving.pl/jak-dzialaja-opcje-definicje/
+
+strategie:
+https://www.tradingforaliving.pl/married-put/
+https://www.tradingforaliving.pl/covered-call/
+https://www.tradingforaliving.pl/spready/
+https://www.tradingforaliving.pl/rolowanie-opcji/
+https://www.tradingforaliving.pl/straddle-strangle/
+https://www.tradingforaliving.pl/strategia-iron-condor/
+https://www.investopedia.com/terms/c/combination.asp
+https://analystprep.com/study-notes/cfa-level-iii/spreads-and-combinations/
+https://www.investopedia.com/trading/options-strategies/
+https://steadyoptions.com/articles/ep-options-spreads/
+https://www.optionseducation.org/strategies/all-strategies-en
+https://app.wallstreetsurvivor.com/trading/optionspreads
 
 dywidendy:
 https://www.vaneck.com/pl/pl/dywidendy/
@@ -452,7 +487,12 @@ https://www.tradingforaliving.pl/anatomia-spadkow-dlaczego-rynek-zachowuje-sie-o
 https://www.tradingforaliving.pl/dlaczego-akcje-rosna-i-spadaja/
 https://www.tradingforaliving.pl/jak-kupic-obligacje-korporacyjne/
 https://www.tradingforaliving.pl/jak-analizuje-spolki-do-inwestycji-piec-kluczowych-etapow-oceny-akcji-gieldowych/
-
+https://www.tradingforaliving.pl/co-to-jest-vix/
+https://www.tradingforaliving.pl/co-to-jest-efekt-contango/
+https://www.tradingforaliving.pl/risk-to-reward/
+https://www.tradingforaliving.pl/chcesz-okielznac-niedzwiedzia-i-miec-80-zyskownych-transakcji-prosze-bardzo-strategia-short-volatility-w-praktyce-cz-1/
+https://www.tradingforaliving.pl/sigma-quantitative-trading/
+https://www.tradingforaliving.pl/short-volatility-2/
 
 
 
@@ -502,6 +542,8 @@ TMUS2517M210 	20.0000 	$5.35 	2.75 	$5,500.00 	-5,200.00 	-48.60% 	Trade Exercis
 CSCO2517M52.5 	80.0000 	$0.98 	1.14 	$9,120.00 	1,280.00 	16.33% 
 
 podjecie decyzji o sprzedaniu option-call ORCL 1 tys zysku
+kupiono MSGS option-put - obecnie duzy wzrost zapowiada sie spadek
+podjecie decyzji o sprzedaniu option-call CSCO 1,7 tys zysku
 
 ################################
 ##### investopedia waszgie #####
@@ -511,6 +553,8 @@ wzrost opcji do 4800 16 procent - decyzja sprzedaz opcji call (20), 6 tysiecy zy
 wzrost opcji poczatkowo 7tys pozniej 3tys - decyzja sprzedaz opcji call (10), 3 tysiecy zysku
 sprzedano akcje vinc w celu unikniecia dalszych strat 4 procent wzrostu, minimalny zysk
 kupiono SLV option-put na ponizej 29 do lutego - obecnie duzy wzrost zapowiada sie spadek
+wzrost opcji VINC, akcje wzrosly do 292 - decyzja sprzedaz opcji call (10), 2,5 tysiecy zysku
+kupiono VINC option-put na ponizej 285 do 20 grudnia - obecnie duzy wzrost zapowiada sie spadek
  
 ################################
 ##### investopedia naszgie #####
@@ -519,3 +563,27 @@ kupiono SLV option-put na ponizej 29 do lutego - obecnie duzy wzrost zapowiada s
 zaczynaja sie najwieksze spadki i wszystkie options-put ladnie wzrost najwieksza powyzej 70 procent
 wzrost opcji MCD z 5.65 do 13.65 139 procent, spadek akcji do 292, option-put na spadek ponizej 300  - decyzja sprzedaz opcji call (15), 11 tysiecy zysku
 wzrost opcji KO z 0.59 do 1.22 106 procent, spadek akcji do 65.8, option-put na spadek ponizej 65  - decyzja sprzedaz opcji call (80), 5 tysiecy zysku
+
+10/31/2024	MSGS2521N220	Option: Buy to Open at Market	10	$11.60	$11,600.00
+
+info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 10 $10,700.00 -$900.00 (-7.76%) - w jeden dzien zmiana z -10 tys na 0 (z 221 do 217)
+
+--------------------------------
+#####################################
+##### investopedia strategiagie #####
+#####################################
+
+strategia duzy dlugi option-put i maly krotki option-call na ten sam instrument:
+- jest najbardziej zyskowna gdy najpierw chwile wzrost a nastepnie duzy spadek
+- jest rowniez zyskowna gdy zaistnial warunek samego duzego spadku
+- rekompensuje poniesienie straty wzrostu akcji za pomoca krotkiego malego call
+- rekompensuje poniesienie straty spadku akcji za pomoca dlugiego duzego put
+
+NVDA2516Q120 NVDA 5/16/2025 $120.00 Put Buy at Market (30) $12.70 - oczekiwany spadek w dlugiej perspektywie do ponizej 120.00
+NVDA2517A136 NVDA 1/17/2025 $136.00 Call Buy at Market (10) $12.50 - oczekiwany wzrost w krotkiej perspektywie do powyzej 136.00
+
+AAPL2616M215 AAPL 1/16/2026 $215.00 Put Buy at Market (20) $15.72 - oczekiwany spadek w dlugiej perspektywie do ponizej 215.00
+AAPL2517A235 AAPL 1/17/2025 $235.00 Call Buy at Market (10) $8.00 - oczekiwany wzrost w krotkiej perspektywie do powyzej 235.00
+
+info:  NVDA2517A136 NVDA 1/17/2025 $136.00 Call $14.25 -$50.00 (-0.35%) $12.50 10 $14,200.00 $1,700.00 (13.60%) - akcje wzrosly do 136.5 w jeden dzien
+info:  AAPL2616M215 AAPL 1/16/2026 $215.00 Put $16.93 -$760.00 (-2.24%) $15.80 20 $33,100.00 $1,500.00 (4.75%) - akcje spadly do 222 w jeden dzien
