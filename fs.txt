@@ -169,13 +169,20 @@ firma finansowa ze stabilnym wykresem: FINV
 koleje: UNP, CP, CNI, CSX - wzrosty *styczen, lipiec, pazdziernik
 linie lotnicze: DAL, UAL, RYAAY - wzrosty poczatek roku do maja(lub opozniony do lipca), spadki po okresie wakacyjnym sierpien/wrzesien
 travel: ABNB, BKNG, TCOM, CCL - mozna zagrac na option-put w kwietniu, bo zawsze po kwietniu spada albo od maja do wrzesnia, mozna zagrac na option-call w listopadzie wtedy zawsze rosnie
-entertainment: WBD, FOXA, DIS, PARA, NWSA, FWONK, LYV w grudniu zawsze wzrost option-call na poczatku grudnia, w marcu zalamanie przed marcem option-put
+entertainment: WBD, FOXA, DIS, PARA, NWSA, FWONK, LYV w grudniu zawsze wzrost option-call na poczatku grudnia, w marcu zalamanie przed marcem option-put, drugie zalamanie wrzesien/pazdziernik
 trucking: ODFL, XPO, SAIA, TFII w grudniu zawsze wzrost option-call na poczatku grudnia, w marcu zalamanie przed marcem option-put
 chemicals: DOW, CE, OLN, HUN, MEOH, TROX w maju wzrost option-call, w wrzesniu/pazdzierniku zalamanie option-put, po zalamaniu w padzierniku/listopadzie option-call na do conajmniej do konca roku
 restaurants: MCD, SBUX, DPZ na poczatku roku mozna zagrac na option-put, w czerwcu zalamanie option-put, we wrzesniu odbicie option-call
 - anomalia SHAK przez caly rok wzrost lub spadek, YUM raz na poczatku roku spadki a innym razem symetrycznie na poczatku roku wzrosty
 oil gas: SLB, BKR, HAL, TS, FTI, NOV, WFRD wykres sferyczny raz konsekwenty wzrost innym razem konsekwentny spadek, zwykle pazdziernik listpoad wzrost do konca roku option-call
 leisue: PLNT, HAS, MAT, CUK, zalamanie we wrzesniu, pazdzierniku wystarczy option-put w sierpniu a nastepnie przy odbiciu option-call okolo pazdziernika
+
+4/11/2024 call wallstreetsurvivor
+OLN, CE
+DIS, NWSA
+FCNCA
+ODFL, SAIA
+ABNB
 
 Call options allow investors to benefit from rising stock prices. 
 A call option has three important characteristics: a strike price, an expiration date, and a purchase price. 
@@ -542,7 +549,6 @@ TMUS2517M210 	20.0000 	$5.35 	2.75 	$5,500.00 	-5,200.00 	-48.60% 	Trade Exercis
 CSCO2517M52.5 	80.0000 	$0.98 	1.14 	$9,120.00 	1,280.00 	16.33% 
 
 podjecie decyzji o sprzedaniu option-call ORCL 1 tys zysku
-kupiono MSGS option-put - obecnie duzy wzrost zapowiada sie spadek
 podjecie decyzji o sprzedaniu option-call CSCO 1,7 tys zysku
 
 ################################
