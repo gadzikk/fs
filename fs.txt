@@ -177,12 +177,6 @@ restaurants: MCD, SBUX, DPZ na poczatku roku mozna zagrac na option-put, w czerw
 oil gas: SLB, BKR, HAL, TS, FTI, NOV, WFRD wykres sferyczny raz konsekwenty wzrost innym razem konsekwentny spadek, zwykle pazdziernik listpoad wzrost do konca roku option-call
 leisue: PLNT, HAS, MAT, CUK, zalamanie we wrzesniu, pazdzierniku wystarczy option-put w sierpniu a nastepnie przy odbiciu option-call okolo pazdziernika
 
-4/11/2024 call wallstreetsurvivor
-OLN, CE
-DIS, NWSA
-FCNCA
-ODFL, SAIA
-ABNB
 
 Call options allow investors to benefit from rising stock prices. 
 A call option has three important characteristics: a strike price, an expiration date, and a purchase price. 
@@ -503,7 +497,14 @@ https://www.tradingforaliving.pl/short-volatility-2/
 
 
 
-
+^==========================^^^^^^^^^=========================^
+^==========================^^^^^^^^^=========================^
+							CARS
+https://www.trojmiejskamotoryzacja.pl/budowa-pojazdu.php
+https://www.warta.pl/porada/budowa-samochodu-wszystko-co-powinien-wiedziec-kierowca/
+https://punkta.pl/akademia/dla-kierowcow/budowa-samochodu-elementy-ukladow-i-ich-rola/
+^==========================^^^^^^^^^=========================^
+^==========================^^^^^^^^^=========================^
 
 
 
@@ -573,6 +574,14 @@ wzrost opcji KO z 0.59 do 1.22 106 procent, spadek akcji do 65.8, option-put na 
 10/31/2024	MSGS2521N220	Option: Buy to Open at Market	10	$11.60	$11,600.00
 
 info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 10 $10,700.00 -$900.00 (-7.76%) - w jeden dzien zmiana z -10 tys na 0 (z 221 do 217)
+
+11/04/2024	OLN2521B42.5	Option: Buy to Open at Market	20	$3.40	$6,800.00
+11/04/2024	DIS2521C100	Option: Buy to Open at Market	10	$6.00	$6,000.00
+11/04/2024	CE2521C130	Option: Buy to Open at Market	10	$9.30	$9,300.00
+11/04/2024	PARA2521C11	Option: Buy to Open at Market	30	$0.75	$2,250.00
+11/04/2024	ODFL2517A210	Option: Buy to Open at Market	8	$10.90	$8,720.00
+11/04/2024	ABNB2521C140	Option: Buy to Open at Market	8	$13.20	$10,560.00
+
 
 --------------------------------
 #####################################
