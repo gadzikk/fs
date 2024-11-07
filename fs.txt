@@ -552,6 +552,23 @@ CSCO2517M52.5 	80.0000 	$0.98 	1.14 	$9,120.00 	1,280.00 	16.33%
 podjecie decyzji o sprzedaniu option-call ORCL 1 tys zysku
 podjecie decyzji o sprzedaniu option-call CSCO 1,7 tys zysku
 
+ 	Market - Buy 	ODFL2517A210 	8 	Options 	$11.2000 	1.00 	11/05/2024 - 15:44
+	Market - Buy 	OLN2521B42.5 	20 	Options 	$3.0000 	1.00 	11/05/2024 - 15:04
+	Market - Short 	JPM2406X205 	-5 	Options 	$2.0900 	1.00 	11/04/2024 - 15:51
+	Market - Short 	JPM2406L230 	-5 	Options 	$2.9000 	1.00 	11/04/2024 - 15:51
+	Market - Buy 	ABNB2521C140 	8 	Options 	$12.5500 	1.00 	11/04/2024 - 14:15
+	Market - Buy 	PARA2521C11 	30 	Options 	$0.7500 	1.00 	11/04/2024 - 11:20
+	Market - Buy 	CE2521C130 		10 	Options 	$9.3000 	1.00 	11/04/2024 - 11:18
+	Market - Buy 	DIS2521C100 	10 	Options 	$5.9500 	1.00 	11/04/2024 - 10:13 
+	
+	Market - Sell 	ODFL2517A210 	-8 	Options 	$23.7000 	1.00 	11/06/2024 - 10:21
+	Market - Sell 	ABNB2521C140 	-8 	Options 	$15.1900 	1.00 	11/06/2024 - 10:09
+	Market - Sell 	INTC2521B22 	-20 	Options 	$4.3000 	1.00 	11/06/2024 - 10:08 
+
+info: JPM2406X205 	-5.0000 	$2.09 	0.20 	$100.00 	945.00 	90.43% 	Trade
+info: JPM2406L230 	-5.0000 	$2.90 	18.60 	$9,300.00 	-7,850.00 	-541.38% 	Trade 
+
+
 ################################
 ##### investopedia waszgie #####
 ################################
@@ -562,6 +579,12 @@ sprzedano akcje vinc w celu unikniecia dalszych strat 4 procent wzrostu, minimal
 kupiono SLV option-put na ponizej 29 do lutego - obecnie duzy wzrost zapowiada sie spadek
 wzrost opcji VINC, akcje wzrosly do 292 - decyzja sprzedaz opcji call (10), 2,5 tysiecy zysku
 kupiono VINC option-put na ponizej 285 do 20 grudnia - obecnie duzy wzrost zapowiada sie spadek
+spadek GS do 511 nie sprzedano option-put, nastepnie kurs okolo 522, przegapiono 2,5 tys zysku
+wynik wyborow w usa, wiekszosc bankowych szalenie do gory vinc 306 gs 596 prawdopodobnie cala kasa z putow przepadla
+11/06/2024	SLV2521N29	Option: Sell to Close at Market	50	$2.01	$10,050.00 (2,250 tys zysk)
+
+11/07/2024	JPM2521O230	Option: Buy to Open at Market	20	$8.50	$17,000.00
+11/07/2024	GS2521O550	Option: Buy to Open at Market	10	$17.70	$17,700.00
  
 ################################
 ##### investopedia naszgie #####
@@ -581,6 +604,9 @@ info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 1
 11/04/2024	PARA2521C11	Option: Buy to Open at Market	30	$0.75	$2,250.00
 11/04/2024	ODFL2517A210	Option: Buy to Open at Market	8	$10.90	$8,720.00
 11/04/2024	ABNB2521C140	Option: Buy to Open at Market	8	$13.20	$10,560.00
+
+11/06/2024	ABNB2521C140	Option: Sell to Close at Market	8	$14.90	$11,920.00 (1 tys zysku)
+11/06/2024	ODFL2517A210	Option: Sell to Close at Market	8	$22.10	$17,680.00 (9 tys zysku)
 
 
 --------------------------------
@@ -602,3 +628,5 @@ AAPL2517A235 AAPL 1/17/2025 $235.00 Call Buy at Market (10) $8.00 - oczekiwany w
 
 info:  NVDA2517A136 NVDA 1/17/2025 $136.00 Call $14.25 -$50.00 (-0.35%) $12.50 10 $14,200.00 $1,700.00 (13.60%) - akcje wzrosly do 136.5 w jeden dzien
 info:  AAPL2616M215 AAPL 1/16/2026 $215.00 Put $16.93 -$760.00 (-2.24%) $15.80 20 $33,100.00 $1,500.00 (4.75%) - akcje spadly do 222 w jeden dzien
+
+NVDA2517A136 NVDA 1/17/2025 $136.00 Call $18.88 -$130.00(-0.69%) $12.50 10 $18,750.00 $6,250.00
