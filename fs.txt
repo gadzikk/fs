@@ -160,6 +160,9 @@ na tanie option-put nalezy grac na kilka kursow dobra jest dywersyfikacja i gran
 
 gielda jest kompletnie nieprzewidywalna jednego dnia mozesz miec opcje -10 tysiecy a kolejnego juz mozesz miec je na 0 i na tym mozna zyskiwac
 
+najlepsza strategia to zrobienie bardzo dlugiego option-put mocno rozniacego sie od obecnej ceny,
+ kupujemy wtedy tanie opcje a nastepnie gramy w odpowiednim czasie pojedynczymi krotszymi option-callami
+
 follow 
 MA, MS, JPM, JNJ 
 mniejsze bankowe: FUNC, FRBA, FRAF, FNWB, FNWD, FNB, FDBC, FFIC, EVBN, EBMT
@@ -176,6 +179,21 @@ restaurants: MCD, SBUX, DPZ na poczatku roku mozna zagrac na option-put, w czerw
 - anomalia SHAK przez caly rok wzrost lub spadek, YUM raz na poczatku roku spadki a innym razem symetrycznie na poczatku roku wzrosty
 oil gas: SLB, BKR, HAL, TS, FTI, NOV, WFRD wykres sferyczny raz konsekwenty wzrost innym razem konsekwentny spadek, zwykle pazdziernik listpoad wzrost do konca roku option-call
 leisue: PLNT, HAS, MAT, CUK, zalamanie we wrzesniu, pazdzierniku wystarczy option-put w sierpniu a nastepnie przy odbiciu option-call okolo pazdziernika
+
+opracowane-strategie:
+strategia slabnacy put:
+kupiono option-put, nastepnie akcje gwaltownie wzrstaja, wartosc option-put zmierza do zera i jest ryzyko utraty calej premii option-put
+- kupno kolejnego option-put odrazu po gwaltownym wzroscie na o wiele wiekszy strike celem zmniejszenia poniesionej straty lub odbiciu sie na zysk przy drugim lepszym kursie
+- (bardzo ryzykowny w momencie gdy nie bedzie spadkow strata jest liczona podwojnie)
+strategia slabnacy call:
+kupiono option-call, nastepnie akcje gwaltownie spadaja, wartosc option-call zmierza do zera i jest ryzyko utraty calej premii option-call
+- kupno kolejnego option-call odrazu po gwaltownym spadku na o wiele mniejszy strike celem zmniejszenia poniesionej straty lub odbiciu sie na zysk przy drugim lepszym kursie
+- (bardzo ryzykowny w momencie gdy nie bedzie wzrostow strata jest liczona podwojnie)
+strategia duzy dlugi option-put i maly krotki option-call na ten sam instrument:
+- jest najbardziej zyskowna gdy najpierw chwile wzrost a nastepnie duzy spadek
+- jest rowniez zyskowna gdy zaistnial warunek samego duzego spadku
+- rekompensuje poniesienie straty wzrostu akcji za pomoca krotkiego malego call
+- rekompensuje poniesienie straty spadku akcji za pomoca dlugiego duzego put
 
 
 Call options allow investors to benefit from rising stock prices. 
@@ -568,6 +586,7 @@ podjecie decyzji o sprzedaniu option-call CSCO 1,7 tys zysku
 info: JPM2406X205 	-5.0000 	$2.09 	0.20 	$100.00 	945.00 	90.43% 	Trade
 info: JPM2406L230 	-5.0000 	$2.90 	18.60 	$9,300.00 	-7,850.00 	-541.38% 	Trade 
 
+info:  IBM 		100 	$234.00 	207.85 	2.86 	$20,784.52 	-2,615.48 	-11.18% 	(spadek z 234 do 207 a tylko 2,5 tys straty)
 
 ################################
 ##### investopedia waszgie #####
@@ -583,8 +602,10 @@ spadek GS do 511 nie sprzedano option-put, nastepnie kurs okolo 522, przegapiono
 wynik wyborow w usa, wiekszosc bankowych szalenie do gory vinc 306 gs 596 prawdopodobnie cala kasa z putow przepadla
 11/06/2024	SLV2521N29	Option: Sell to Close at Market	50	$2.01	$10,050.00 (2,250 tys zysk)
 
-11/07/2024	JPM2521O230	Option: Buy to Open at Market	20	$8.50	$17,000.00
-11/07/2024	GS2521O550	Option: Buy to Open at Market	10	$17.70	$17,700.00
+11/07/2024	PUT JPM2521O230	Option: Buy to Open at Market	20	$8.50	$17,000.00
+11/07/2024	PUT GS2521O550	Option: Buy to Open at Market	10	$17.70	$17,700.00
+11/08/2024	PUT V2521O305	Option: Buy to Open at Market	15	$9.55	$14,325.00
+12/09/2024	PUT V2420X285	Option: Sell to Close at Market	15	$0.19	$285.00 (7,665 tys strata)
  
 ################################
 ##### investopedia naszgie #####
@@ -598,15 +619,19 @@ wzrost opcji KO z 0.59 do 1.22 106 procent, spadek akcji do 65.8, option-put na 
 
 info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 10 $10,700.00 -$900.00 (-7.76%) - w jeden dzien zmiana z -10 tys na 0 (z 221 do 217)
 
-11/04/2024	OLN2521B42.5	Option: Buy to Open at Market	20	$3.40	$6,800.00
-11/04/2024	DIS2521C100	Option: Buy to Open at Market	10	$6.00	$6,000.00
-11/04/2024	CE2521C130	Option: Buy to Open at Market	10	$9.30	$9,300.00
-11/04/2024	PARA2521C11	Option: Buy to Open at Market	30	$0.75	$2,250.00
-11/04/2024	ODFL2517A210	Option: Buy to Open at Market	8	$10.90	$8,720.00
-11/04/2024	ABNB2521C140	Option: Buy to Open at Market	8	$13.20	$10,560.00
+11/04/2024 CALL	OLN2521B42.5	Option: Buy to Open at Market	20	$3.40	$6,800.00
+11/04/2024 CALL	DIS2521C100	Option: Buy to Open at Market	10	$6.00	$6,000.00
+11/04/2024 CALL	CE2521C130	Option: Buy to Open at Market	10	$9.30	$9,300.00
+11/04/2024 CALL	PARA2521C11	Option: Buy to Open at Market	30	$0.75	$2,250.00
+11/04/2024 CALL	ODFL2517A210	Option: Buy to Open at Market	8	$10.90	$8,720.00
+11/04/2024 CALL	ABNB2521C140	Option: Buy to Open at Market	8	$13.20	$10,560.00
 
-11/06/2024	ABNB2521C140	Option: Sell to Close at Market	8	$14.90	$11,920.00 (1 tys zysku)
-11/06/2024	ODFL2517A210	Option: Sell to Close at Market	8	$22.10	$17,680.00 (9 tys zysku)
+11/06/2024 CALL	ABNB2521C140	Option: Sell to Close at Market	8	$14.90	$11,920.00 (1 tys zysku)
+11/06/2024 CALL	ODFL2517A210	Option: Sell to Close at Market	8	$22.10	$17,680.00 (9 tys zysku)
+11/13/2024 CALL	DIS2521C100	Option: Sell to Close at Market	10	$8.90	$8,900.00 (3 tys zysku)
+12/09/2024 PUT	MT2420X23	Option: Sell to Close at Market	40	$0.05	$200.00 (3 tys straty)
+12/10/2024 PUT	PM2420X115	Option: Sell to Close at Market	40	$0.10	$400.00 (8,400 tys straty)
+10/15/2024 PUT	AS2420X15	premium lost	300	$0.40	$12,000.00 (12 tys straty)
 
 
 --------------------------------
@@ -614,11 +639,6 @@ info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 1
 ##### investopedia strategiagie #####
 #####################################
 
-strategia duzy dlugi option-put i maly krotki option-call na ten sam instrument:
-- jest najbardziej zyskowna gdy najpierw chwile wzrost a nastepnie duzy spadek
-- jest rowniez zyskowna gdy zaistnial warunek samego duzego spadku
-- rekompensuje poniesienie straty wzrostu akcji za pomoca krotkiego malego call
-- rekompensuje poniesienie straty spadku akcji za pomoca dlugiego duzego put
 
 NVDA2516Q120 NVDA 5/16/2025 $120.00 Put Buy at Market (30) $12.70 - oczekiwany spadek w dlugiej perspektywie do ponizej 120.00
 NVDA2517A136 NVDA 1/17/2025 $136.00 Call Buy at Market (10) $12.50 - oczekiwany wzrost w krotkiej perspektywie do powyzej 136.00
@@ -629,4 +649,18 @@ AAPL2517A235 AAPL 1/17/2025 $235.00 Call Buy at Market (10) $8.00 - oczekiwany w
 info:  NVDA2517A136 NVDA 1/17/2025 $136.00 Call $14.25 -$50.00 (-0.35%) $12.50 10 $14,200.00 $1,700.00 (13.60%) - akcje wzrosly do 136.5 w jeden dzien
 info:  AAPL2616M215 AAPL 1/16/2026 $215.00 Put $16.93 -$760.00 (-2.24%) $15.80 20 $33,100.00 $1,500.00 (4.75%) - akcje spadly do 222 w jeden dzien
 
-NVDA2517A136 NVDA 1/17/2025 $136.00 Call $18.88 -$130.00(-0.69%) $12.50 10 $18,750.00 $6,250.00
+NVDA2517A136 NVDA 1/17/2025 $136.00 Call $18.88 -$130.00(-0.69%) $12.50 10 $18,750.00 (6,250.00 zysku)
+
+11/07/2024 PUT NVDA2521N146		Option: Buy to Open at Market	10	$13.05	$13,050.00
+11/08/2024 PUT	AMZN2521O205	Option: Buy to Open at Market	10	$10.75	$10,750.00
+11/18/2024 PUT	AMZN2521O205	Option: Sell to Close at Market	10	$13.15	$13,150.00 (2,5 tys zysku)
+11/26/2024 PUT  NVDA2521N146	Option: Sell to Close at Market	10	$15.95	$15,950.00 (2,5 tys zysku)
+11/26/2024 CALL	NVDA2521C138	Option: Buy to Open at Market	10	$15.15	$15,150.00
+12/03/2024 CALL	AAPL2517A235	Option: Sell to Close at Market	10	$10.95	$10,950.00 (3 tys zysku)
+12/04/2024 CALL NVDA2521C138	Option: Sell to Close at Market	10	$19.05	$19,050.00 (4 tys zysku)
+12/03/2024 CALL	AAPL2521C245	Option: Buy to Open at Market	10	$11.20	$11,200.00
+12/09/2024 CALL	AAPL2521C245	Option: Sell to Close at Market	10	$13.45	$13,450.00 (2,25 tys zysku)
+12/09/2024 PUT	AAPL2521O245	Option: Buy to Open at Market	10	$8.90	$8,900.00
+12/11/2024 CALL	NVDA2521C139	Option: Buy to Open at Market	10	$14.55	$14,550.00
+12/12/2024 CALL	AAPL2521C250	Option: Buy to Open at Market	10	$11.55	$11,550.00
+12/17/2024 CALL	AAPL2521C250	Option: Sell to Close at Market	10	$14.20	$14,200.00 (2,65 tys zysku)
