@@ -163,6 +163,21 @@ gielda jest kompletnie nieprzewidywalna jednego dnia mozesz miec opcje -10 tysie
 najlepsza strategia to zrobienie bardzo dlugiego option-put mocno rozniacego sie od obecnej ceny,
  kupujemy wtedy tanie opcje a nastepnie gramy w odpowiednim czasie pojedynczymi krotszymi option-callami
 
+bank centralny usa obcial stopy procentowe byl ogromny jednodniowy spadek a dzis stocki odpowiedzialy duzym wzrostem przykladowo gs(z 576 do 550)
+ takie wydarzenie daje spekulantom ogromny wachlarz narzedzi do bogacenia sie, wystarczy przed wydarzeniem kupic option-put a po jednym dniu robic option-call
+ 
+najgorszy pomysl to grac na sztywne reguly w porach roku bazujac na latach wczesniejszych, mozna sie tym delikatnie zasugerowac 
+ ale to ze dana regula o danej porze wystapila rok wczesniej nie oznacza ze w obecnym roku rowniez bedzie tak samo
+ 
+lepiej zagrac na drogie dlugoterminowe opcje za mniejsza ilosc niz duza ilosc tanich opcji
+
+nalezy unikac firm ktore niedawno weszly na stocki
+
+(odwrotna operacja do kursu) lepiej zagrac na option-put gdy cena akcji rosnie, lepiej zagrac na option-call gdy cena akcji spada
+
+mozna zagrac krotkie opcje za 5, liczac sie z tym ze cala premia mozna stracic
+
+
 follow 
 MA, MS, JPM, JNJ 
 mniejsze bankowe: FUNC, FRBA, FRAF, FNWB, FNWD, FNB, FDBC, FFIC, EVBN, EBMT
@@ -194,6 +209,9 @@ strategia duzy dlugi option-put i maly krotki option-call na ten sam instrument:
 - jest rowniez zyskowna gdy zaistnial warunek samego duzego spadku
 - rekompensuje poniesienie straty wzrostu akcji za pomoca krotkiego malego call
 - rekompensuje poniesienie straty spadku akcji za pomoca dlugiego duzego put
+strategia granie na ponizej/powyzej pewnego progu
+strategia kupowanie option-put gdy kurs rosnie
+strategia kupowanie option-call gdy kurs spada
 
 
 Call options allow investors to benefit from rising stock prices. 
@@ -381,6 +399,8 @@ https://www.investopedia.com/articles/professionals/091615/career-advice-investm
 https://thestaffed.com/difference-between-retail-banking-and-wholesale-banking/
 https://www.investopedia.com/terms/w/wholesalebanking.asp
 https://www.bloomberg.com/europe
+https://www.investopedia.com/terms/c/cap.asp
+https://www.skarbiec.pl/slownik/cap-2/
 
 PL
 
@@ -606,6 +626,8 @@ wynik wyborow w usa, wiekszosc bankowych szalenie do gory vinc 306 gs 596 prawdo
 11/07/2024	PUT GS2521O550	Option: Buy to Open at Market	10	$17.70	$17,700.00
 11/08/2024	PUT V2521O305	Option: Buy to Open at Market	15	$9.55	$14,325.00
 12/09/2024	PUT V2420X285	Option: Sell to Close at Market	15	$0.19	$285.00 (7,665 tys strata)
+12/19/2024	PUT GS2521O550	Option: Sell to Close at Market	10	$24.40	$24,400.00 (6,7 tys zysku)
+1/15/2025	PUT JPM2521O250	Option: Buy to Open at Market	5	$6.45	$3,225.00
  
 ################################
 ##### investopedia naszgie #####
@@ -630,9 +652,16 @@ info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 1
 11/06/2024 CALL	ODFL2517A210	Option: Sell to Close at Market	8	$22.10	$17,680.00 (9 tys zysku)
 11/13/2024 CALL	DIS2521C100	Option: Sell to Close at Market	10	$8.90	$8,900.00 (3 tys zysku)
 12/09/2024 PUT	MT2420X23	Option: Sell to Close at Market	40	$0.05	$200.00 (3 tys straty)
-12/10/2024 PUT	PM2420X115	Option: Sell to Close at Market	40	$0.10	$400.00 (8,400 tys straty)
+12/10/2024 PUT	PM2420X115	Option: Sell to Close at Market	40	$0.10	$400.00 (8,4 tys straty)
 10/15/2024 PUT	AS2420X15	premium lost	300	$0.40	$12,000.00 (12 tys straty)
-
+12/26/2024 PUT	JNJ2715M140	Option: Buy to Open at Market	10	$11.55	$11,550.00
+12/26/2024 CALL	JNJ2520F150	Option: Buy to Open at Market	15	$6.15	$9,225.00
+12/26/2024 PUT	NVO2616M85	Option: Buy to Open at Market	10	$9.55	$9,550.00
+12/26/2024 CALL	NVO2520F90	Option: Buy to Open at Market	15	$8.05	$12,075.00
+1/02/2025 PUT	MSGS2521N220 Option: Sell to Close at Market	10	$3.10	$3,100.00 (8,5 tys straty)
+1/07/2025 PUT	NVO2616M85	Option: Sell to Close at Market	10	$10.70	$10,700.00 (1 tys zysku)
+1/08/2025 PUT	JNJ2715M140	Option: Sell to Close at Market	10	$12.35	$12,350.00 (1 tys zysku)
+1/09/2025 PUT   IBM2616M220	Option: Buy to Open at Market	5	$21.10	$10,550.00
 
 --------------------------------
 #####################################
@@ -664,3 +693,13 @@ NVDA2517A136 NVDA 1/17/2025 $136.00 Call $18.88 -$130.00(-0.69%) $12.50 10 $18,7
 12/11/2024 CALL	NVDA2521C139	Option: Buy to Open at Market	10	$14.55	$14,550.00
 12/12/2024 CALL	AAPL2521C250	Option: Buy to Open at Market	10	$11.55	$11,550.00
 12/17/2024 CALL	AAPL2521C250	Option: Sell to Close at Market	10	$14.20	$14,200.00 (2,65 tys zysku)
+12/18/2024 CALL	AMZN2521C235	Option: Buy to Open at Market	10	$13.50	$13,500.00
+12/18/2024 PUT	AMZN2517P225	Option: Buy to Open at Market	10	$12.10	$12,100.00
+12/19/2024 PUT	AMZN2517P225	Option: Sell to Close at Market	10	$14.45	$14,450.00 (2,35 tys zysku)
+12/19/2024 PUT	AMZN2517P225	Option: Buy to Open at Market	5	$15.00	$7,500.00
+1/02/2025 CALL	AAPL2520F245	Option: Buy to Open at Market	5	$17.25	$8,625.00
+1/03/2025 PUT	AAPL2521O245	Option: Sell to Close at Market	10	$9.95	$9,950.00 (1 tys zysku)
+1/03/2025 CALL	NVDA2521C139	Option: Sell to Close at Market	10	$17.35	$17,350.00 (2,8 tys zysku)
+1/03/2025 PUT	NVDA2520R143	Option: Buy to Open at Market	10	$17.40	$17,400.00
+1/08/2025 PUT	NVDA2520R143	Option: Sell to Close at Market	10	$18.70	$18,700.00 (1 tys zysku)
+1/10/2025 PUT	AMZN2517P225	Option: Sell to Close at Market	5	$16.65	$8,325.00 (1 tys zysku)
