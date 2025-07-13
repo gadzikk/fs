@@ -177,6 +177,8 @@ nalezy unikac firm ktore niedawno weszly na stocki
 
 mozna zagrac krotkie opcje za 5, liczac sie z tym ze cala premia mozna stracic
 
+grajac duzego puta nalezy zagrac slabego calla 20:5 nawet jezeli szanse ze sie zdarzy zmierzaja ku zeru, bo zawsze moze wybuchnac konflikt lub zdarzenie polityczne ktore zmieni kurs
+
 
 follow 
 MA, MS, JPM, JNJ 
@@ -212,6 +214,8 @@ strategia duzy dlugi option-put i maly krotki option-call na ten sam instrument:
 strategia granie na ponizej/powyzej pewnego progu
 strategia kupowanie option-put gdy kurs rosnie
 strategia kupowanie option-call gdy kurs spada
+strategia dlugi duzy put:
+- zagranie na dlugiego duzego puta powinno zostac zabezpieczone przez zagranie na dlugiego malego calla w stosunku 20:5
 
 
 Call options allow investors to benefit from rising stock prices. 
@@ -316,91 +320,6 @@ Two weeks later XYZ stock increased in price to $83. The price of the option is 
 ==============================================================
 ==============================================================
 
-https://www.google.com/search?q=bonds&rlz=1C1GCFQ_enPL1120PL1120&oq=bonds&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAtIBCDEyMThqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=shares+and+stock&rlz=1C1GCFQ_enPL1120PL1120&oq=shares+and+stock&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCDMyMjRqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=equity+deriviates&rlz=1C1GCFQ_enPL1120PL1120&oq=equity+deriviates&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCDM0NDFqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=indexes+financial&rlz=1C1GCFQ_enPL1120PL1120&oq=indexes+financial&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCDUyNzdqMGoxqAIAsAIB&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=secured+debt&rlz=1C1GCFQ_enPL1120PL1120&oq=secured+debt&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAtIBCDE5MjNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=debenture&rlz=1C1GCFQ_enPL1120PL1120&oq=debenture&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDE2MTNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=interest+rate&rlz=1C1GCFQ_enPL1120PL1120&oq=interest+rate&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAtIBCDIxNzVqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=dividends&rlz=1C1GCFQ_enPL1120PL1120&oq=dividends&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAtIBCDE1NjFqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=futures+options+swaps&rlz=1C1GCFQ_enPL1120PL1120&oq=futures+options+swaps&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCTExNDM2ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
-https://capgemini.sharepoint.com/:p:/r/sites/fsplbcm/_layouts/15/Doc.aspx?sourcedoc=%7B8EB19BA8-C1B1-4046-85CD-6DBCDEFE6721%7D&file=BCM%20Academy_Capital%20Markets_presentation_v2.2.pptx&action=edit&mobileredirect=true
-https://razorpay.com/blog/card-tokenisation-all-you-need-to-know/
-https://www.investopedia.com/terms/l/liquidity-coverage-ratio.asp
-https://www.investopedia.com/articles/personal-finance/050515/how-swift-system-works.asp
-https://tipalti.com/mass-payments-hub/what-is-swift/
-https://www.google.com/search?q=Treasury+bonds+are+considered+a+safe+form+of+investment&sca_esv=eb29a46433157e1a&rlz=1C1GCFQ_enPL1120PL1120&biw=1360&bih=599&ei=VIvRZrmGC_-Qxc8P67vK8Ac&ved=0ahUKEwi5gPWhrpyIAxV_SPEDHeudEn44ChDh1QMIEQ&uact=5&oq=Treasury+bonds+are+considered+a+safe+form+of+investment&gs_lp=Egxnd3Mtd2l6LXNlcnAiN1RyZWFzdXJ5IGJvbmRzIGFyZSBjb25zaWRlcmVkIGEgc2FmZSBmb3JtIG9mIGludmVzdG1lbnQyBRAhGKABSMQHUJUDWJUDcAF4AZABAJgBhgGgAYYBqgEDMC4xuAEDyAEA-AEC-AEBmAICoAKNAcICChAAGLADGNYEGEeYAwCIBgGQBgOSBwMxLjGgB4IC&sclient=gws-wiz-serp
-https://www.investopedia.com/financial-edge/0312/the-basics-of-bonds.aspx
-https://www.forbes.com/councils/forbesfinancecouncil/2023/04/20/underwriting-your-underwriter-ipo/
-https://www.google.com/search?q=OTC+gielda&sca_esv=8e99831eb58f4f25&rlz=1C1GCFQ_enPL1120PL1120&ei=kJHRZqO3LMOE7NYP47GQwAc&ved=0ahUKEwijv5qbtJyIAxVDAtsEHeMYBHgQ4dUDCBE&uact=5&oq=OTC+gielda&gs_lp=Egxnd3Mtd2l6LXNlcnAiCk9UQyBnaWVsZGEyBxAAGIAEGA0yCBAAGKIEGIkFMggQABiABBiiBDIIEAAYgAQYogRIlw9QmQNY7w5wAXgBkAEAmAF0oAGrBKoBAzUuMbgBA8gBAPgBAZgCB6ACvATCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICChAAGIAEGEMYigXCAgUQABiABMICDhAuGIAEGMcBGI4FGK8BwgIGEAAYFhgemAMAiAYBkAYKkgcDNi4xoAeZGg&sclient=gws-wiz-serp
-https://www.home.saxo/learn/guides/financial-literacy/what-is-otc-trading
-https://www.schwab.com/stocks/understand-stocks/otc-stock
-https://www.forbes.com/advisor/investing/otc-market/
-https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/preferred-shares/
-https://www.bankrate.com/investing/what-is-preferred-stock/
-https://corporatefinanceinstitute.com/resources/valuation/what-is-beta-guide/
-https://www.google.com/search?q=There+are+bonds+which+are+not+paid+any+interests&sca_esv=8e99831eb58f4f25&rlz=1C1GCFQ_enPL1120PL1120&ei=iJfRZp2AMa-Lxc8PubOl0QY&ved=0ahUKEwid5OzzuZyIAxWvRfEDHblZKWoQ4dUDCBE&uact=5&oq=There+are+bonds+which+are+not+paid+any+interests&gs_lp=Egxnd3Mtd2l6LXNlcnAiMFRoZXJlIGFyZSBib25kcyB3aGljaCBhcmUgbm90IHBhaWQgYW55IGludGVyZXN0czIIEAAYgAQYogRI3RFQzgJYlQ9wAXgAkAEAmAGJAaABrQKqAQMyLjG4AQPIAQD4AQL4AQGYAgOgAvIBwgIKEAAYsAMY1gQYR5gDAIgGAZAGA5IHAzEuMqAH4AQ&sclient=gws-wiz-serp
-https://www.law.cornell.edu/wex/common_stock
-https://www.investopedia.com/terms/l/liquidasset.asp
-https://www.investopedia.com/ask/answers/051815/what-difference-between-nostro-and-vostro-account.asp
-https://www.paysera.pl/v2/pl-PL/blog/czym-jest-sepa
-https://www.google.com/search?q=retail+banks+vs+commercial+banks+vs+investment+banks+vs+central+banks&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banks+vs+commercial+banks+vs+investment+banks+vs+central+banks&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAtIBCTIxMDQzajBqMagCALACAA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAjIHCAMQIRiPAtIBCTMwMTQ3ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks+vs+private+banks&sca_esv=3a158260ac093e64&sca_upv=1&rlz=1C1GCFQ_enPL1120PL1120&ei=Sa7RZr3eAbiUxc8P9ty9oAc&ved=0ahUKEwj9pofNz5yIAxU4SvEDHXZuD3QQ4dUDCBA&uact=5&oq=retail+banks+vs+commercial+cooperate+banks+vs+investment+banks+vs+private+banks&gs_lp=Egxnd3Mtd2l6LXNlcnAiT3JldGFpbCBiYW5rcyB2cyBjb21tZXJjaWFsIGNvb3BlcmF0ZSBiYW5rcyB2cyBpbnZlc3RtZW50IGJhbmtzIHZzIHByaXZhdGUgYmFua3NI3hlQxwZY3hhwAXgBkAEAmAFgoAG_BaoBATi4AQPIAQD4AQGYAgGgAgbCAgoQABiwAxjWBBhHmAMA4gMFEgExIECIBgGQBgiSBwExoAfQFg&sclient=gws-wiz-serp
-https://www.google.com/search?q=retail+banking+vs+wholesale+banking&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banking+vs+wholesale+banking&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY0MDdqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=derivatives+futures+options+swaps&rlz=1C1GCFQ_enPL1120PL1120&oq=derivatives+futures+options+swaps&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAtIBCTIzMDE5ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=ipo&rlz=1C1GCFQ_enPL1120PL1120&oq=ipo&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAjIGCAQQRRhB0gEHNzc0ajBqMagCALACAA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=financial+clearing&rlz=1C1GCFQ_enPL1120PL1120&oq=financial+clearing&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRiPAjIHCAIQIRiPAjIHCAMQIRiPAtIBCDQxODNqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=rtgs&rlz=1C1GCFQ_enPL1120PL1120&oq=rtgs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDExMTlqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.investopedia.com/terms/a/account_settlement.asp
-https://en.wikipedia.org/wiki/Settlement_(finance)
-https://servicecentral.capgemini.com/sc?id=ticket&is_new_order=true&table=incident&sys_id=e04033ae33e49e50abfdaf934d5c7b6b
-https://servicecentral.capgemini.com/sc?id=ticket&table=incident&sys_id=e04033ae33e49e50abfdaf934d5c7b6b
-https://www.google.com/search?sca_esv=5009c1303de011b0&sca_upv=1&rlz=1C1GCFQ_enPL1120PL1120&q=settlement+of+debts+incurred&spell=1&sa=X&ved=2ahUKEwiJw9DOruOIAxXeExAIHd78FkgQBSgAegQICxAB&biw=1280&bih=631&dpr=1.5
-https://www.google.com/search?q=collateral+po+ang&sca_esv=5009c1303de011b0&sca_upv=1&rlz=1C1GCFQ_enPL1120PL1120&ei=O8n2Zv2rKaTOwPAP2Z6B2A8&ved=0ahUKEwi9tcvAsuOIAxUkJxAIHVlPAPsQ4dUDCBA&uact=5&oq=collateral+po+ang&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWNvbGxhdGVyYWwgcG8gYW5nMggQABgWGB4YDzIIEAAYFhgeGA8yCBAAGIAEGKIEMggQABiABBiiBDIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEj5EVDPA1i_EXABeAGQAQCYAXegAaoEqgEDNC4yuAEDyAEA-AEBmAIHoAK_BMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhMQLhiABBiwAxhDGMgDGIoF2AEBwgIWEC4YgAQYsAMYQxjUAhjIAxiKBdgBAcICChAAGIAEGEMYigXCAgUQABiABMICBRAuGIAEwgIIEC4YgAQY1ALCAgoQLhiABBhDGIoFwgINEAAYgAQYRhj_ARijBcICBhAAGBYYHsICChAAGIAEGEYY_wHCAggQABgWGAoYHpgDAIgGAZAGE7oGBggBEAEYCZIHAzUuMqAHxkE&sclient=gws-wiz-serp
-https://www.google.com/search?q=retail+banking+vs+prority+banking+vs+private+banking&rlz=1C1GCFQ_enPL1120PL1120&oq=retail+banking+vs+prority+banking+vs+private+banking&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKAB0gEJMTI4ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
-https://www.investopedia.com/terms/i/investmentbank.asp
-https://www.investopedia.com/terms/i/investment-banking.asp
-https://www.youtube.com/watch?v=J_K1TECpuFs
-https://corporatefinanceinstitute.com/resources/commercial-lending/corporate-banking/
-https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/
-https://www.predictiveanalyticstoday.com/what-is-corporate-banking-industry/
-https://www.investopedia.com/articles/general/071213/retail-banking-vs-commercial-banking.asp
-https://www.temenos.com/news/2019/12/19/what-is-digital-banking/
-https://www.investopedia.com/terms/f/financialinstrument.asp
-https://www.fe.training/free-resources/lbo/financial-instruments/
-https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/financial-instrument/
-https://www.investopedia.com/terms/f/financial-market.asp
-https://capgemini.sharepoint.com/sites/NurtureLearningJourney/Shared%20Documents/General/Wealth%20Management%20Pathway/Module%202%20-%20Back%20Office%20V2.0%20.pdf?CID=c4997aaa-0f98-450f-a016-37a9c3305c2b
-https://www.investopedia.com/ask/answers/08/difference-between-a-shareholder-and-a-stakeholder.asp
-https://asana.com/pl/resources/stakeholder-vs-shareholder
-https://www.linkedin.com/pulse/understanding-difference-between-shareholder-stakeholder-9czgf?trk=organization_guest_main-feed-card_feed-article-content
-https://www.investopedia.com/terms/c/corporateaction.asp
-https://www.azeusconvene.com/en-gb/articles/the-difference-between-shareholders-and-stakeholders
-https://corporatefinanceinstitute.com/resources/accounting/stakeholder-vs-shareholder/
-https://capgemini.sharepoint.com/sites/NurtureLearningJourney/Shared%20Documents/General/Wealth%20Management%20Pathway/Module%202%20-%20Front%20Office%20V2.0.pdf?CID=de2654f8-cbc1-49cb-a570-7cf31180dba2
-https://capgemini.sharepoint.com/sites/NurtureLearningJourney/Shared%20Documents/General/Wealth%20Management%20Pathway/Module%202%20-%20Middle%20Office%20V2.0%20.pdf?CID=d8a7464f-a0d9-4971-9a47-cc31bde34143
-https://www.investopedia.com/terms/n/netting.asp
-https://www.investopedia.com/terms/c/custodian.asp
-https://www.investopedia.com/terms/c/clearingcorporation.asp#:~:text=A%20clearing%20corporation%20is%20an,a%20prompt%20and%20efficient%20manner
-https://www.investopedia.com/terms/s/shares.asp
-https://www.bajajbroking.in/knowledge-center/difference-between-stock-and-share
-https://www.bbva.com/en/financial-health/what-are-stocks-and-shares-how-do-they-work-how-did-they-arise-historically/
-https://www.bajajfinserv.in/difference-between-shares-and-stocks
-https://wholesale.banking.societegenerale.com/en/news-insights/glossary/equity-derivatives/
-https://www.investopedia.com/terms/e/equity_derivative.asp
-https://www.investopedia.com/terms/i/index.asp
-https://finance.yahoo.com/markets/world-indices/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAG97AJy9hvD6YdqbioYmq6aKI6TgxZVMooBgGpIXmwPbrcM3Uu_xCLXHOED_egn8sruQQPZsRV7qM1weinqvhb6x7BHgnuP_cNvQ6YaIHqaPumxbg-unB3id6ynEd8BlBJUTow42BcPjeMVz__BUhM5bDuFO66v6gDSRsiIB69Uw
-https://www.msci.com/our-solutions/indexes/making-complex-simple/what-are-indexes
-https://www.investopedia.com/ask/answers/061615/what-are-major-categories-financial-institutions-and-what-are-their-primary-roles.asp
-https://smartasset.com/checking-account/types-of-banks
-https://www.investopedia.com/articles/professionals/091615/career-advice-investment-banking-vscommercial-banking.asp
-https://thestaffed.com/difference-between-retail-banking-and-wholesale-banking/
-https://www.investopedia.com/terms/w/wholesalebanking.asp
-https://www.bloomberg.com/europe
-https://www.investopedia.com/terms/c/cap.asp
-https://www.skarbiec.pl/slownik/cap-2/
 
 PL
 
@@ -532,7 +451,8 @@ https://www.tradingforaliving.pl/risk-to-reward/
 https://www.tradingforaliving.pl/chcesz-okielznac-niedzwiedzia-i-miec-80-zyskownych-transakcji-prosze-bardzo-strategia-short-volatility-w-praktyce-cz-1/
 https://www.tradingforaliving.pl/sigma-quantitative-trading/
 https://www.tradingforaliving.pl/short-volatility-2/
-
+https://www.paysera.pl/v2/pl-PL/blog/czym-jest-sepa
+https://www.skarbiec.pl/slownik/cap-2/
 
 
 ^==========================^^^^^^^^^=========================^
@@ -541,9 +461,31 @@ https://www.tradingforaliving.pl/short-volatility-2/
 https://www.trojmiejskamotoryzacja.pl/budowa-pojazdu.php
 https://www.warta.pl/porada/budowa-samochodu-wszystko-co-powinien-wiedziec-kierowca/
 https://punkta.pl/akademia/dla-kierowcow/budowa-samochodu-elementy-ukladow-i-ich-rola/
+https://www.premio.pl/tips-and-tricks/what-is-a-timing-belt.html
+https://www.youtube.com/@profesorchris/videos
+https://www.youtube.com/@NiutekKorbutek/videos
+https://pl.bisonindustria.com/news/difference-between-2-stroke-and-4-stroke-engines/
+https://rolniczak-henrykow.pl/wp-content/uploads/2020/04/silniki-spalinowe.pdf
+https://auto-set.pl/slownik/
 ^==========================^^^^^^^^^=========================^
 ^==========================^^^^^^^^^=========================^
 
+^==========================^^^^^^^^^=========================^
+^==========================^^^^^^^^^=========================^
+							SPRAWY FORMALNE
+https://superpolisa.pl/faq/dokumenty-potrzebne-przy-zakupie-samochodu/
+https://www.warta.pl/porada/kupno-samochodu-krok-po-kroku-o-czym-musi-pamietac-nowy-wlasciciel/
+https://cararena.pl/blog/niezbedne-formalnosci-po-zakupie-samochodu/
+https://www.otomoto.pl/news/dla-kupujacych/formalnosci-i-wzory-dokumentow/co-trzeba-zrobic-po-zakupie-auta-formalnosci-po-zakupie-auta
+https://kunsztstylu.pl/jak-sprawdzic-czy-samochod-nie-jest-zajety-przez-komornika/
+https://slmadwokaci.pl/blog/co-grozi-za-sprzedaz-auta-zajetego-przez-komornika/
+https://www.autobaza.pl/page/auto-ekspert/jak-sprawdzic-czy-samochod-jest-zadluzony/
+https://kioskpolis.pl/jak-sprawdzic-auto-przed-jego-zakupem/
+https://motoraporter.com/jak-sprawdzamy#jak-to-dziala
+https://www.autotesto.pl/raport-przykladowy/
+https://masterlease.pl/blog/badanie-techniczne-samochodu/
+^==========================^^^^^^^^^=========================^
+^==========================^^^^^^^^^=========================^
 
 
 
@@ -628,6 +570,34 @@ wynik wyborow w usa, wiekszosc bankowych szalenie do gory vinc 306 gs 596 prawdo
 12/09/2024	PUT V2420X285	Option: Sell to Close at Market	15	$0.19	$285.00 (7,665 tys strata)
 12/19/2024	PUT GS2521O550	Option: Sell to Close at Market	10	$24.40	$24,400.00 (6,7 tys zysku)
 1/15/2025	PUT JPM2521O250	Option: Buy to Open at Market	5	$6.45	$3,225.00
+1/15/2025	PUT WFC2521O75	Option: Buy to Open at Market	20	$2.52	$5,040.00
+1/27/2025 CALL	V2521C335	Option: Buy to Open at Market	10	$9.75	$9,750.00
+1/28/2025 CALL	V2521C335	Option: Sell to Close at Market	10	$11.80	$11,800.00 (2 tys zysku)
+1/28/2025 CALL	V2521C340	Option: Buy to Open at Market	10	$9.25	$9,250.00
+2/19/2025 PUT GS2521N510 premium lost
+PORTFOLIO RESET
+2/19/2025 PUT	GS2616M660	Option: Buy to Open at Market	5	$56.70	$28,350.00
+2/19/2025 PUT	JPM2616M275	Option: Buy to Open at Market	5	$20.50	$10,250.00
+2/19/2025 CALL	JPM2520F280	Option: Buy to Open at Market	10	$15.05	$15,050.00
+2/20/2025 CALL	JPM2520F280	Option: Sell to Close at Market	10	$8.95	$8,950.00 (6 tys straty)
+2/21/2025 PUT	JPM2616M275	Option: Sell to Close at Market	5	$24.75	$12,375.00 (2 tys zysku)
+2/21/2025 PUT	GS2616M660	Option: Sell to Close at Market	5	$67.75	$33,875.00 (5,5 tys zysku)
+2/21/2025 PUT	JPM2616M265	Option: Buy to Open at Market	10	$20.70	$20,700.00
+2/21/2025 CALL	JPM2520F270	Option: Buy to Open at Market	5	$13.80	$6,900.00
+2/21/2025 PUT	WMT2616M90	Option: Buy to Open at Market	10	$5.15	$5,150.00
+2/21/2025 CALL	WMT2520F95	Option: Buy to Open at Market	20	$5.00	$10,000.00
+2/26/2025 CALL	WMT2520F95	Option: Sell to Close at Market	20	$7.60	$15,200.00 (5,2 tys zysku)
+2/26/2025 PUT	JPM2616M265	Option: Sell to Close at Market	10	$24.50	$24,500.00 (3,8 tys zysku)
+2/26/2025 PUT	WFC2616M75	Option: Buy to Open at Market	10	$6.30	$6,300.00
+2/26/2025 PUT	JPM2616M260	Option: Buy to Open at Market	10	$24.15	$24,150.00
+2/26/2025 CALL	BAC2520F45	Option: Buy to Open at Market	50	$2.19	$10,950.00
+2/26/2025 PUT	BAC2616M42	Option: Buy to Open at Market	20	$2.77	$5,540.00
+2/28/2025 CALL	BAC2520F45	Option: Sell to Close at Market	50	$2.55	$12,750.00 (1,8 tys zysku)
+3/04/2025 PUT	WFC2616M75	Option: Sell to Close at Market	10	$8.65	$8,650.00 (2,3 tys zysku)
+3/04/2025 PUT	BAC2616M42	Option: Sell to Close at Market	20	$3.65	$7,300.00 (2 tys zysku)
+3/04/2025 PUT	JPM2616M260	Option: Sell to Close at Market	10	$27.40	$27,400.00 (3 tys zysku)
+3/07/2025 PUT	WMT2616M90	Option: Sell to Close at Market	10	$6.90	$6,900.00 (1,7 tys zysku)
+Account Value $116,610.00 Cash $114,560.00
  
 ################################
 ##### investopedia naszgie #####
@@ -643,13 +613,14 @@ info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 1
 
 11/04/2024 CALL	OLN2521B42.5	Option: Buy to Open at Market	20	$3.40	$6,800.00
 11/04/2024 CALL	DIS2521C100	Option: Buy to Open at Market	10	$6.00	$6,000.00
-11/04/2024 CALL	CE2521C130	Option: Buy to Open at Market	10	$9.30	$9,300.00
+11/04/2024 CALL	CE2521C130	Option: Buy to Open at Market	10	$9.30	$9,300.00 (premium lost)
 11/04/2024 CALL	PARA2521C11	Option: Buy to Open at Market	30	$0.75	$2,250.00
 11/04/2024 CALL	ODFL2517A210	Option: Buy to Open at Market	8	$10.90	$8,720.00
 11/04/2024 CALL	ABNB2521C140	Option: Buy to Open at Market	8	$13.20	$10,560.00
 
 11/06/2024 CALL	ABNB2521C140	Option: Sell to Close at Market	8	$14.90	$11,920.00 (1 tys zysku)
 11/06/2024 CALL	ODFL2517A210	Option: Sell to Close at Market	8	$22.10	$17,680.00 (9 tys zysku)
+11/08/2024	AS2521O17.5	Option: Buy to Open at Market	35	$1.50	$5,250.00 (premium lost)
 11/13/2024 CALL	DIS2521C100	Option: Sell to Close at Market	10	$8.90	$8,900.00 (3 tys zysku)
 12/09/2024 PUT	MT2420X23	Option: Sell to Close at Market	40	$0.05	$200.00 (3 tys straty)
 12/10/2024 PUT	PM2420X115	Option: Sell to Close at Market	40	$0.10	$400.00 (8,4 tys straty)
@@ -662,6 +633,16 @@ info: MSGS2521N220 MSGS 2/21/2025 $220.00 Put $11.60 $10,700.00 (0.00%) $11.60 1
 1/07/2025 PUT	NVO2616M85	Option: Sell to Close at Market	10	$10.70	$10,700.00 (1 tys zysku)
 1/08/2025 PUT	JNJ2715M140	Option: Sell to Close at Market	10	$12.35	$12,350.00 (1 tys zysku)
 1/09/2025 PUT   IBM2616M220	Option: Buy to Open at Market	5	$21.10	$10,550.00
+1/27/2025 CALL	JNJ2520F150	Option: Sell to Close at Market	15	$7.90	$11,850.00 (2,6 tys zysku)
+1/27/2025 PUT	JNJ2715M150	Option: Buy to Open at Market	5	$12.40	$6,200.00
+2/19/2025 CALL	OLN2521B42.5	Option: Sell to Close at Market	20	$0.05	$100.00 (premium lost)
+1/27/2025 CALL	JNJ2520F155	Option: Buy to Open at Market	15	$5.40	$8,100.00
+2/19/2025 CALL	JNJ2520F155	Option: Sell to Close at Market	15	$7.95	$11,925.00 (3,8 tys zysku)
+2/19/2025 CALL	PARA2521C11	Option: Sell to Close at Market	30	$0.70	$2,100.00 (0 zysku)
+2/19/2025 CALL	JNJ2520F160	Option: Buy to Open at Market	20	$5.25	$10,500.00
+2/21/2025 CALL	JNJ2520F160	Option: Sell to Close at Market	20	$7.45	$14,900.00 (4,4 tys zysku)
+2/21/2025 PUT	NVO2616M87.5	Option: Buy to Open at Market	5	$13.73	$6,865.00
+2/26/2025 PUT	JNJ2520R160	Option: Buy to Open at Market	10	$4.30	$4,300.00
 
 --------------------------------
 #####################################
@@ -703,3 +684,40 @@ NVDA2517A136 NVDA 1/17/2025 $136.00 Call $18.88 -$130.00(-0.69%) $12.50 10 $18,7
 1/03/2025 PUT	NVDA2520R143	Option: Buy to Open at Market	10	$17.40	$17,400.00
 1/08/2025 PUT	NVDA2520R143	Option: Sell to Close at Market	10	$18.70	$18,700.00 (1 tys zysku)
 1/10/2025 PUT	AMZN2517P225	Option: Sell to Close at Market	5	$16.65	$8,325.00 (1 tys zysku)
+1/15/2025 CALL	NVDA2521C135	Option: Buy to Open at Market	5	$12.10	$6,050.00
+1/21/2025 CALL	NVDA2521C135	Option: Sell to Close at Market	5	$14.55	$7,275.00 (1 tys zysku)
+1/23/2025 PUT	NVDA2517P145	Option: Buy to Open at Market	10	$11.80	$11,800.00
+1/27/2025 PUT	NVDA2517P145	Option: Sell to Close at Market	10	$22.40	$22,400.00 (10,6 tys zysku)
+1/27/2025 PUT	NVDA2516Q120	Option: Sell to Close at Market	10	$12.40	$12,400.00 (0,3 tys straty)
+1/27/2025 PUT	NVDA2516Q120	Option: Sell to Close at Market	10	$14.30	$14,300.00 (1,6 tys zysku)
+1/27/2025 PUT	NVDA2516Q120	Option: Sell to Close at Market	10	$13.85	$13,850.00 (1,1 tys zysku (accident))
+1/27/2025 CALL	NVDA2521C126	Option: Buy to Open at Market	5	$10.30	$5,150.00
+1/27/2025 CALL	NVDA2520F126	Option: Buy to Open at Market	10	$16.20	$16,200.00
+1/27/2025 CALL	NVDA2521C126	Option: Buy to Open at Market	10	$10.55	$10,550.00 (accident)
+1/28/2025 CALL	AMZN2521C235	Option: Sell to Close at Market	10	$15.75	$15,750.00 (2,25 tys zysku)
+Account Value $135,275.00 Cash $75,425.00
+1/28/2025 PUT	AMZN2520R240	Option: Buy to Open at Market	10	$16.40	$16,400.00
+1/28/2025 CALL	AMZN2521C245	Option: Buy to Open at Market	5	$10.75	$5,375.00 (premium lost)
+1/30/2025 CALL	AMZN2520R240	Option: Sell to Close at Market	10	$19.10	$19,100.00 (2,5 tys zysku)
+1/30/2025 CALL	NVDA2521C120	Option: Buy to Open at Market	5	$12.60	$6,300.00
+1/30/2025 PUT	IBM2520R250		Option: Buy to Open at Market	10	$12.40	$12,400.00
+2/06/2025 CALL	NVDA2521C126	Option: Sell to Close at Market	15	$12.05	$18,075.00 (2,3 tys zysku)
+2/06/2025 CALL	NVDA2521C120	Option: Sell to Close at Market	5	$15.40	$7,700.00 (1,4 tys zysku)
+2/10/2025 CALL	NVDA2520F126	Option: Sell to Close at Market	10	$21.70	$21,700.00 (5,5 tys zysku)
+2/10/2025 PUT	IBM2520R250		Option: Sell to Close at Market	10	$15.40	$15,400.00 (3 tys zysku)
+Account Value $146,850.00 Cash $116,925.00
+2/10/2025 PUT	NVDA2616M134	Option: Buy to Open at Market	5	$22.35	$11,175.00
+2/10/2025 PUT	IBM2518S245		Option: Buy to Open at Market	5	$13.60	$6,800.00
+2/18/2025 PUT	NVDA2520R140	Option: Buy to Open at Market	5	$14.85	$7,425.00
+2/21/2025 PUT	AAPL2616M245	Option: Buy to Open at Market	10	$17.50	$17,500.00
+2/21/2025 CALL	AAPL2520F245	Option: Sell to Close at Market	5	$16.85	$8,425.00 (0 zysku)
+2/21/2025 CALL	NVDA2520F136	Option: Buy to Open at Market	5	$16.00	$8,000.00
+2/26/2025 PUT	AAPL2616M245	Option: Sell to Close at Market	10	$21.00	$21,000.00 (3,5 tys zysku)
+2/27/2025 CALL	AMZN2520F215	Option: Buy to Open at Market	10	$15.75	$15,750.00
+2/27/2025 PUT	AMZN2616M210	Option: Buy to Open at Market	5	$19.35	$9,675.00
+2/27/2025 PUT	NVDA2520R140	Option: Sell to Close at Market	5	$21.70	$10,850.00 (4 tys  zysku)
+2/27/2025 PUT	NVDA2616M134	Option: Sell to Close at Market	5	$24.85	$12,425.00 (1 tys zysku)
+2/28/2025 CALL	NVDA2520F119	Option: Buy to Open at Market	5	$14.45	$7,225.00
+3/04/2025 PUT	AMZN2616M210	Option: Sell to Close at Market	5	$26.00	$13,000.00 (3,5 tys zysku)
+3/04/2025 CALL	NVDA2515H115	Option: Buy to Open at Market	5	$16.35	$8,175.00
+3/04/2025 CALL	NVDA2515H115	Option: Buy to Open at Market	5	$16.40	$8,200.00
